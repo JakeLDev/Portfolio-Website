@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import MyFooter from './Components/MyFooter';
+import Banner from './Components/Banner'; 
+import ScrollButton from './Components/ScrollButton';
+
+import Home from './Pages';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <Banner />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        {/* <Route path="/qfin-website" element={<Home/>} />
+        <Route path='/home' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/events' element={<Events/>} />
+        <Route path='/projects' element={<Projects/>} />
+        <Route path='/team' element={<Teams/>} />
+        <Route path='/blogs' element={<Blogs/>} />
+        <Route path='/sign-up' element={<SignUp/>} /> */}
+      </Routes>
+      <ScrollButton />
+    </Router>
+    <MyFooter />
+    </>
   );
 }
 
