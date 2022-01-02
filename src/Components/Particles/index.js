@@ -70,14 +70,14 @@ const ParticlesCanvas = () => {
                     },
                     line_linked: {
                         enable: true,
-                        distance: 125,
+                        distance: 150,
                         color: "#cdcdcd",
                         opacity: 0.5,
                         width: .8
                     },
                     move: {
                         enable: true,
-                        speed: 2.5,
+                        speed: 3.5,
                         direction: "none",
                         random: true,
                         straight: false,
