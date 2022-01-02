@@ -1,13 +1,16 @@
 import React from 'react';
-import bannerimg from "../assets/QFin LinkedIn Banner Thinner.png";
-
 
 const Banner = () => {
     return (
         <>
-            <img className="banner" src={bannerimg} alt="QFin Banner" />
+            <div className="banner">
+                <h1 className="banner-title">
+                    yooooo its jayke
+                </h1>
+            </div>
+            <div id="bannerEnd"></div>
         </>
     );
 };
-    
+
 export default Banner;
