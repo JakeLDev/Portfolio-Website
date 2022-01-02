@@ -36,22 +36,13 @@ const Navbar = () => {
         {(!isMobile || burgerOpen) &&
           <NavMenu>
             <NavLink to='/about' activestyle="true">
-              About
+              About Me
             </NavLink>
             <NavLink to='/projects' activestyle="true">
               Projects
             </NavLink>
             <NavLink to='/events' activestyle="true">
-              Events
-            </NavLink>
-            <NavLink to='/team' activestyle="true">
-              Team
-            </NavLink>
-            <NavLink to='/blogs' activestyle="true">
-              Blogs
-            </NavLink>
-            <NavLink to='/sign-up' activestyle="true">
-              Sign Up
+              Work Experience
             </NavLink>
           </NavMenu>
         }

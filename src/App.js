@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Router>
-      <Banner />
+      {/* <Banner /> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home/>} />
