@@ -33,13 +33,13 @@ const Navbar = () => {
         }
         {(!isMobile || burgerOpen) &&
           <NavMenu>
-              <a href='#bannerEnd' className="button">
+              <a href='#About Me' className="button">
                 About Me
               </a>
-              <a href='#aboutEnd' className="button">
+              <a href='#Projects' className="button">
                 Projects
               </a>
-              <a href='#projectEnd' className="button">
+              <a href='#Work Experience' className="button">
                 Work Experience
               </a>
           </NavMenu>

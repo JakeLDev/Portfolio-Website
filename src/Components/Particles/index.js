@@ -3,13 +3,13 @@ import Particles from "react-tsparticles";
 
 const ParticlesCanvas = () => {
   const particlesInit = (main) => {
-    console.log(main);
+    // console.log(main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
 
   return (
@@ -70,7 +70,7 @@ const ParticlesCanvas = () => {
                     },
                     line_linked: {
                         enable: true,
-                        distance: 150,
+                        distance: 130,
                         color: "#cdcdcd",
                         opacity: 0.5,
                         width: .8
@@ -105,7 +105,7 @@ const ParticlesCanvas = () => {
                     },
                     modes: {
                         grab: {
-                        distance: 125,
+                        distance: 110,
                         line_linked: {
                             opacity: .5
                         }
@@ -122,7 +122,7 @@ const ParticlesCanvas = () => {
                         duration: 0.4
                         },
                         push: {
-                        particles_nb: 4
+                        particles_nb: 3
                         },
                         remove: {
                         particles_nb: 2

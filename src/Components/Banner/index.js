@@ -6,7 +6,7 @@ const Banner = () => {
             <div className="banner">
                 <div className="banner-content">
                     <h1 className="banner-title">
-                        yooooo its jayke
+                        Software Engineer
                     </h1>
                 </div>
             </div>

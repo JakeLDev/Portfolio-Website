@@ -4,7 +4,7 @@ import styled from 'styled-components';
   
 // Style of the navbar
 export const Nav = styled.nav`
-  position: sticky;
+  // position: sticky;
   top: 0;
   background: rgba(42, 218, 226, .95);
   height: 50px;

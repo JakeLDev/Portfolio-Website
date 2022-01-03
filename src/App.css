@@ -142,8 +142,8 @@ div.page{
   background: rgba(20, 20, 22, .9);
   font-family: 'Segoe UI', sans-serif;
   justify-content: center;
-
-  min-height: 100vh;
+  height: auto;
+  /* min-height: 100vh; */
   max-width: 65%;
   margin: auto;
   z-index: 1;
@@ -241,6 +241,41 @@ div.paragraph > p.content {
   opacity: 100%;
 }
 
+.Project-container{
+  display: block;
+}
+
+.Project{
+  display: inline-block;
+  width: 95%;
+  height: auto;
+}
+
+h2.Project-heading{
+  padding: 0px 20px;
+}
+
+.Project-image{
+  float: left;
+  display: inline-block;
+  /* margin-left: 0;
+  margin-right: auto; */
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  object-fit: cover;
+  /* padding: 10px; */
+  padding-right: 10px;
+}
+@media screen and (max-width: 1100px) {
+  .Project-image{
+    width: 100%;
+    max-width: 100%;
+  }
+}
+a {
+  color: inherit;
+}
 
 
 /* Scroll bar css */
