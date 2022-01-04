@@ -6,7 +6,7 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
   // position: sticky;
   top: 0;
-  background: rgba(42, 218, 226, .95);
+  background: rgba(34, 34, 34, .80);
   height: 50px;
   display:flex;
   justify-content: center;
@@ -25,7 +25,7 @@ export const Nav = styled.nav`
 
 // Colour of text on nav bar
 export const NavLink = styled(Link)`
-  color: #000000;
+  color: rgba(237, 237, 237, .9);
   font-weight: bold;
   display: flex;
   align-items: center;
