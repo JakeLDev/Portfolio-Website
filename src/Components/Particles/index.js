@@ -17,6 +17,7 @@ const ParticlesCanvas = () => {
         <div className="particles-container">
             <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded}
                 options={{
+                    fpsLimit: 30,
                     pauseOnBlur: true,
                     fullScreen: {
                         enable: true,
@@ -24,10 +25,10 @@ const ParticlesCanvas = () => {
                       },
                     particles: {
                         number: {
-                            value: 70,
+                            value: 50,
                             density: {
                                 enable: true,
-                                value_area: 900
+                                value_area: 1000
                         }
                     },
                     color: {
@@ -70,7 +71,7 @@ const ParticlesCanvas = () => {
                     },
                     line_linked: {
                         enable: true,
-                        distance: 130,
+                        distance: 150,
                         color: "#cdcdcd",
                         opacity: 0.5,
                         width: .8
@@ -105,7 +106,7 @@ const ParticlesCanvas = () => {
                     },
                     modes: {
                         grab: {
-                        distance: 110,
+                        distance: 150,
                         line_linked: {
                             opacity: .5
                         }
