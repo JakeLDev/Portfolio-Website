@@ -72,11 +72,37 @@ footer {
 }
 .banner-title{
   text-align: center;
-  font-family : 'Helvetica', sans-serif;
+  font-family : 'IBM Plex Mono', sans-serif;
   font-weight: bold;
   font-size: 80px;
   color: white;
   margin: 0px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 900px){
+  .banner-title:after {
+    content: '';
+    width: 40px;
+    height: 7px;
+    background: white;
+    opacity: 0;
+    margin-left: 3px;
+    display: inline-block;
+    animation: blink .5s infinite alternate;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .scroll-btn-container div {
@@ -252,8 +278,32 @@ div.paragraph > p.content {
   height: auto;
 }
 
-h2.Project-heading{
-  padding: 0px 20px;
+hr.Main-separator{
+  max-width: 95%;
+  opacity: 95%;
+  margin: 20px auto;
+  border: 3px solid rgb(194, 194, 192);
+  border-radius: 5px;
+}
+
+hr.Sub-separator{
+  max-width: 80%;
+  opacity: 50%;
+  margin: 20px auto;
+  border: 2px solid rgb(194, 194, 192);
+  border-radius: 5px;
+}
+
+hr.Section-separator{
+  max-width: 70%;
+  opacity: 100%;
+  margin: 30px auto;
+  border: 4px solid rgb(194, 194, 192);
+  border-radius: 5px;
+}
+
+.Project-header {
+  margin-top: 0px; 
 }
 
 .Project-image{

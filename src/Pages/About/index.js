@@ -102,6 +102,8 @@ const Home = () => {
         </ul>
       </div>
 
+      <hr className="Section-separator"></hr>
+
       <div className="page" id='Projects'>
 
         <h1 className="title">Projects</h1>
@@ -110,17 +112,22 @@ const Home = () => {
           <p className="content" style={{textAlign: "center"}}>Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work.</p>
         </div>
         <div className="Project-container">
+        <hr className="Sub-separator"></hr>
           <Project title="Crime Data Visualisation for the WA Police Force"
             image= {WAPOL}
             desc= "Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
             tools="Python, Pandas, PyQt5, GIS, SciPy"
             repo="Private as requested by WAPOL" />
 
+          <hr className="Sub-separator"></hr>
+
           <Project title="Momentum Trading Algorithm"
             image= {MOMENTUM}
             desc= "Created a set of algorithms to trade cryptocurrencies, based around the trading strategy of “momentum trading”. The results were then documented in a report. (The Semester 2 Project for QFin UWA’s Trading Team). Worked in a team of 3 people to create a set of Python algorithms with the goal of achieving a positive return when trading on 2020 price data for popular cryptocurrencies. Our algorithm was tested against both the market and the other trading teams’ algorithms. Our algorithm greatly outperformed the market, sometimes returning as good as 8x the return as opposed to buying and holding. We also outperformed the algorithms written by all other teams."
             tools="Python, Gemini Modules, Numpy, Pandas"
             repolink="https://github.com/QFinUWA/2021-Momentum-Trading-Buy-Low-Sell-Lower" />
+
+          <hr className="Sub-separator"></hr>
 
           <Project title="“The Resistance” Card Game Artificial Intelligence Agent"
             image= {RESISTANCE}
@@ -129,6 +136,8 @@ const Home = () => {
             repolink="https://github.com/JakeL1001/The-Resistance-AI-CITS3001"/>
         </div>
       </div>
+
+      <hr className="Section-separator"></hr>
 
       <div className="page" id='Work Experience'>
         <h1 className="title">Work Experience and Roles</h1>
@@ -144,8 +153,9 @@ const Home = () => {
             <p className="Project-desc">Developed and populated a new intranet system for Vinnies WA, for use across 52 stores, warehouse depos, and head office staff. This private site hosts all internal documents, templates and forms for Vinnies WA, and is used by hundreds of staff and volunteers.</p>
             <img className="Job-image" src={Vintranet} alt="Vintranet"/>
             <p className="Job-desc"> <b>Technologies: </b>HTML, CSS, JavaScript</p>
-            <br></br>
           </div>
+
+          <hr className="Main-separator"></hr>
 
           <div className="Job">
             <img className="Job-logo" src={QFin} alt="QFin Logo" width="100px" height="100px"/>
@@ -159,14 +169,22 @@ const Home = () => {
             <p className="Project-desc">Creating a Web Application and Email Domain for the QFin UWA club which will display what the club is about our events, executive team and committee, and our sponsors. I am working alongside other developers within QFin to develop the website. The site will be accessible to both desktop and mobile users.</p>
             <img className="Job-image" src={QFinSite} alt="QFin website"/>
             <p className="Job-desc"> <b>Technologies: </b>React, HTML, CSS, JavaScript</p>
-            <br></br>
 
-            <h3 className='Project-title'>QFin UWA Algorithm Back Testing Framework (In Progress)</h3>
-            <p className='Project-desc'>In the process of creating a rapid back testing framework to test the performance of quantitative trading algorithms for use by the 2022 QFin Trading Team. It will allow users to test their quantitative algorithms on historical price data for stocks and cryptocurrencies. It will also be optimized to allow for multicore processing and parameter sweeping for algorithm optimization.</p>
-            {/* <img className="Job-image" src={QFinSite} alt="QFin website"/> */}
+            <hr className="Sub-separator"></hr>
+
+            <h3 className='Project-title'>QFin UWA Algorithm Back-testing Framework (In Progress)</h3>
+            <p className='Project-desc'>In the process of creating a rapid back testing framework to test the performance of quantitative trading algorithms for use by the 2022 QFin Trading Team. It will allow users to test their quantitative algorithms on historical price data for stocks and cryptocurrencies. It will also be optimized to allow for multicore processing and parameter sweeping for algorithm optimization. We hope to have this framework be published on PyPI for easy installation through pip for use in educational workshops run by QFin.</p>
             <p className="Job-desc"> <b>Technologies: </b>Python, Pandas, Vectorbt, Numpy, Stock APIs</p>
-            <br></br>
+
+            <hr className="Sub-separator"></hr>
+
+            <h3 className='Project-title'>Trading Team Project Semester 1, 2022</h3>
+            <p className='Project-desc'>Currently in the process of creating a project for the QFin Trading Team to complete in Semester 1, 2022. This Project is focused around the concept of Mean Reversion, a mathematical theory which claims that seeing a result that is significantly above or below a mean, will mean that the next result is likely to be closer to the mean. Therefore in theory you can place buy or sell orders for financial assets on the basis of how far the current price is from the average price. The project will task the Trading Team with creating an optimized trading algorithm which utilizes Mean Reversion to turn a profit on historical price data.</p>
+            <p className='Project-desc'>The results of this project will be featured on the QFin GitHub after completion</p>
+            <p className="Job-desc"> <b>Technologies: </b>Python, Vectorbt, Numpy, Stock APIs, QFin Back-testing Framework</p>
           </div>
+
+          <hr className="Main-separator"></hr>
 
           <div className="Job">
             <img className="Job-logo" src={CFC} alt="CFC Logo" width="100px" height="100px"/>
@@ -177,10 +195,9 @@ const Home = () => {
             <h3 className='Project-title'>Web Application for Western Australian Institute of Sport</h3>
             <p className="Project-desc">Creating a Web Application for WAIS to help visualise the performance of pole vaulters in training. We will be incorporating computer vision software and user input to allow coaches to best train their athletes. Working in a team of volunteers through Coders For Causes.</p>
             <img className="Job-image" src={WAIS} alt="WAIS"/>
-            <p className="Job-desc"> <b>Technologies: </b>Vue.js, Django, HTML, CSS, JavaScript</p>
+            <p className="Job-desc"> <b>Technologies: </b>Vue.js, Django, HTML, CSS, JavaScript, Docker</p>
             <br></br>
           </div>
-
         </div>
       </div>
     </>
