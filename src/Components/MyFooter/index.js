@@ -3,11 +3,10 @@ import mediaLinks from './mediaLinks';
 
 import "./FooterImgs.css"
 
-const mailQfin = () => {
+const mailme = () => {
     if (typeof window !== 'undefined') {
-        window.location.href="mailto:qfinuwa@gmail.com";
+        window.location.href="mailto:jakelyell@iinet.net.au";
     }
-    console.log("!!!");
 }
 
 
@@ -16,10 +15,10 @@ const MyFooter = () => {
         <>
             <footer className="footer">
                 <div className="footer-content">
-                    <h2 id="footer-header">Contact Us</h2>
+                    <h2 id="footer-header">Contact Me</h2>
                     <p>
-                        <button onClick={mailQfin}>Email Us</button>  <br/>
-                        qfinuwa@gmail.com
+                        <button onClick={mailme}>Email Me</button>  <br/>
+                        jakelyell@iinet.net.au
                     </p>
                     <div className="footer-icons">
                         {mediaLinks.map((media) => 

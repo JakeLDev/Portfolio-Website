@@ -4,11 +4,12 @@ import {
   NavLink,
   Bars,
   NavMenu,
-  NavQFin,
   //NavBtn,
   //NavBtnLink,
 } from './NavbarElements';
-  
+
+import "./navbar.css"
+
 const Navbar = () => {
 
   const [burgerOpen, setBurgerOpen] = React.useState(false);
@@ -27,23 +28,20 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavQFin className="QFin" to="/home" activestyle="true">
-          QFin UWA
-        </NavQFin>
         {isMobile &&
           <Bars className="burger" onClick={toggleBurger}/>
         }
         {(!isMobile || burgerOpen) &&
           <NavMenu>
-            <NavLink to='/about' activestyle="true">
-              About Me
-            </NavLink>
-            <NavLink to='/projects' activestyle="true">
-              Projects
-            </NavLink>
-            <NavLink to='/events' activestyle="true">
-              Work Experience
-            </NavLink>
+              <a href='#About Me' className="button">
+                About Me
+              </a>
+              <a href='#Projects' className="button">
+                Projects
+              </a>
+              <a href='#Work Experience' className="button">
+                Work Experience
+              </a>
           </NavMenu>
         }
       </Nav>

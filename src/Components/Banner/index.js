@@ -1,13 +1,27 @@
 import React from 'react';
-import bannerimg from "../assets/QFin LinkedIn Banner Thinner.png";
 
-
-const Banner = () => {
+const Banner = (children) => {
     return (
         <>
-            <img className="banner" src={bannerimg} alt="QFin Banner" />
+            <div className="banner">
+                <div className="banner-content">
+                    <h1 className="banner-title">
+                        {children.title}
+                    </h1>
+                </div>
+            </div>
+            <div class="scroll-btn-container">
+                    <div>
+                    <a href="#bannerEnd" id="scroll-btn-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    </div>  
+            </div>
+            <div id="bannerEnd"></div>
         </>
     );
 };
-    
+
 export default Banner;

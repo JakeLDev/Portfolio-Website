@@ -5,10 +5,10 @@ const Project = (children) => {
         <>
             <div className="Project">
                 <h2 className="Project-header">{children.title}</h2>
-                <p className="Project-desc"> Description: {children.desc}</p>
-                <p className="Project-tools"> Tools: {children.tools}</p>
-                <p className="Project-results"> Results: {children.results}</p>
-                <p className="Project-repo"> Repository: {children.repo}</p>
+                <img className="Project-image" src={children.image} alt={children.title} />
+                <p className="Project-desc"> <b>Description</b>: {children.desc}</p>
+                <p className="Project-tools"> <b>Technologies</b>: {children.tools}</p>
+                <p className="Project-repo-link"> <b>Repository</b>: <a href={children.repolink} target="_blank">{children.repolink}</a>{children.repo}</p>
             </div>
         </>
     );
