@@ -1,5 +1,5 @@
 html {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -166,7 +166,7 @@ body {
 
 div.page{
   background: rgba(20, 20, 22, .9);
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Inter', sans-serif;
   justify-content: center;
   height: auto;
   /* min-height: 100vh; */
