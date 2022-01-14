@@ -17,7 +17,6 @@ const ParticlesCanvas = () => {
         <div className="particles-container">
             <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded}
                 options={{
-                    fpsLimit: 30,
                     pauseOnBlur: true,
                     fullScreen: {
                         enable: true,
@@ -25,7 +24,7 @@ const ParticlesCanvas = () => {
                       },
                     particles: {
                         number: {
-                            value: 50,
+                            value: 30,
                             density: {
                                 enable: true,
                                 value_area: 1000
@@ -78,7 +77,7 @@ const ParticlesCanvas = () => {
                     },
                     move: {
                         enable: true,
-                        speed: 3.5,
+                        speed: 3,
                         direction: "none",
                         random: true,
                         straight: false,

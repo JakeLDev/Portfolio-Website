@@ -1,8 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {
   Nav,
-  NavLink,
-  Bars,
   NavMenu,
   //NavBtn,
   //NavBtnLink,
@@ -12,26 +10,9 @@ import "./navbar.css"
 
 const Navbar = () => {
 
-  const [burgerOpen, setBurgerOpen] = React.useState(false);
-  const [isMobile, setIsMobile] = React.useState(false);
-  const onWindowResize = () => setIsMobile(window.innerWidth < 768);
-
-  useEffect(() => {
-    onWindowResize();
-    window.onresize = onWindowResize;
-  }, []);
-
-  const toggleBurger = () => {
-    setBurgerOpen(!burgerOpen);
-  }
-
   return (
     <>
       <Nav>
-        {isMobile &&
-          <Bars className="burger" onClick={toggleBurger}/>
-        }
-        {(!isMobile || burgerOpen) &&
           <NavMenu>
               <a href='#About Me' className="button">
                 About Me
@@ -43,7 +24,6 @@ const Navbar = () => {
                 Work Experience
               </a>
           </NavMenu>
-        }
       </Nav>
     </>
   );

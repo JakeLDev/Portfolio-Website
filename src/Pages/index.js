@@ -32,7 +32,7 @@ const Home = () => {
         <div className="paragraph">
           <p className="content"> I'm currently studying a Bachelor of Science with a Double Major in Computer Science and Data Science at the University of Western Australia. Graduating in July 2022.
                                   After graduation, I am planning to begin an Honours in Computer Science and Software Engineering in Semester 2, 2022. <br></br>
-                                  I graduated High School in 2018 with an ATAR of 94.25
+                                  I graduated High School in 2018 with an ATAR of 94.25.
                                   </p>
         </div>
         <h2 className="subheading">Hobbies</h2>
@@ -145,7 +145,7 @@ const Home = () => {
         <div className="Jobs">
           <div className="Job">
             <img className="Job-logo" src={Vinnies} alt="Vinnies Logo" width="100px" height="100px"/>
-            <h2 className="Job-title">Saint Vincent de Paul (Vinnies WA) | Web Developer</h2>
+            <h2 className="Job-title">St Vincent de Paul (Vinnies WA) | Web Developer</h2>
             <h3 className="Job-subtitle">December 2021 - Present</h3>
             <p className="Job-desc"> <b>Role: </b>Temporary Web Developer creating the new intranet system for Vinnies WA called the "Vintranet"</p>
             <h3 className="Job-desc"> <b>Projects: </b></h3>

@@ -12,6 +12,11 @@ a.button{
     cursor: pointer;
     appearance: button;
 }
+@media screen and (max-width: 550px){
+    a.button{
+        display: none;
+    }
+}
 
 .button.active {
     color: #000000;
