@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.08ccd8b1.css",
-    "main.js": "/static/js/main.3de46030.js",
+    "main.css": "/static/css/main.d8d41c6d.css",
+    "main.js": "/static/js/main.4e344345.js",
     "static/js/787.49138e18.chunk.js": "/static/js/787.49138e18.chunk.js",
-    "static/media/Vintranet.png": "/static/media/Vintranet.77e635a55baecef6fcec.png",
+    "static/media/Vintranet.png": "/static/media/Vintranet.c6e19b9470ad648671b3.png",
     "static/media/JakeLyell.jpg": "/static/media/JakeLyell.f4e1abcf899c1cbb2cee.jpg",
     "static/media/WAPOL2.png": "/static/media/WAPOL2.4d0870bae011f66f0903.png",
     "static/media/WAIS.png": "/static/media/WAIS.8ed3ab88451136d49641.png",
@@ -13,12 +13,12 @@
     "static/media/Gray+Design+Vinnies+logo.jpg": "/static/media/Gray+Design+Vinnies+logo.21079882473e810a3755.jpg",
     "static/media/QFin-Logo.png": "/static/media/QFin-Logo.0b5aa4d4a04cac448a80.png",
     "index.html": "/index.html",
-    "main.08ccd8b1.css.map": "/static/css/main.08ccd8b1.css.map",
-    "main.3de46030.js.map": "/static/js/main.3de46030.js.map",
+    "main.d8d41c6d.css.map": "/static/css/main.d8d41c6d.css.map",
+    "main.4e344345.js.map": "/static/js/main.4e344345.js.map",
     "787.49138e18.chunk.js.map": "/static/js/787.49138e18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ccd8b1.css",
-    "static/js/main.3de46030.js"
+    "static/css/main.d8d41c6d.css",
+    "static/js/main.4e344345.js"
   ]
 }
