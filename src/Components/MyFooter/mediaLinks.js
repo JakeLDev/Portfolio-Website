@@ -8,7 +8,7 @@ const mediaLinks = [
     {
         Logo: FaGithub,   
         id: "github-img",
-        href:  "https://github.com/JakeL1001"
+        href:  "https://github.com/JakeLDev"
     },
     {
         Logo: FaLinkedin, 

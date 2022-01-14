@@ -107,7 +107,7 @@ const Home = () => {
       <div className="page" id='Projects'>
 
         <h1 className="title">Projects</h1>
-        <h3 className="subheading" style={{textAlign: "center"}}><a href="https://github.com/JakeL1001" target="_blank">GitHub</a></h3>
+        <h3 className="subheading" style={{textAlign: "center"}}><a href="https://github.com/JakeLDev" target="_blank">GitHub</a></h3>
         <div className="paragraph">
           <p className="content" style={{textAlign: "center"}}>Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work.</p>
         </div>
@@ -133,7 +133,7 @@ const Home = () => {
             image= {RESISTANCE}
             desc= "Researched and developed a game-playing Artificial Intelligence agent to play the card game “The Resistance” to compete in a tournament at UWA. We created an agent that utilizes Bayes’ Rule for calculating probabilities in a Bayesian, imperfect information game."
             tools="Python"
-            repolink="https://github.com/JakeL1001/The-Resistance-AI-CITS3001"/>
+            repolink="https://github.com/JakeLDev/The-Resistance-AI-CITS3001"/>
         </div>
       </div>
 
