@@ -5,7 +5,7 @@ import "./FooterImgs.css"
 
 const mailme = () => {
     if (typeof window !== 'undefined') {
-        window.location.href="mailto:jakelyell@iinet.net.au";
+        window.location.href="mailto:me@jakelyell.dev";
     }
 }
 
@@ -18,7 +18,7 @@ const MyFooter = () => {
                     <h2 id="footer-header">Contact Me</h2>
                     <p>
                         <button onClick={mailme}>Email Me</button>  <br/>
-                        jakelyell@iinet.net.au
+                        me@jakelyell.dev
                     </p>
                     <div className="footer-icons">
                         {mediaLinks.map((media) => 

@@ -262,11 +262,16 @@ div.paragraph > p.content {
   height: auto;
 }
 
+.Job-Project-title, .Job-Project-desc, .Job-Project-tech{
+  padding-left: 30px;
+}
+
 hr.Main-separator{
   max-width: 95%;
   opacity: 95%;
   margin: 20px auto;
   border: 3px solid rgb(194, 194, 192);
+  background-color: rgb(194, 194, 192);
   border-radius: 5px;
 }
 
@@ -275,6 +280,7 @@ hr.Sub-separator{
   opacity: 50%;
   margin: 20px auto;
   border: 2px solid rgb(194, 194, 192);
+  background-color: rgb(194, 194, 192);
   border-radius: 5px;
 }
 
@@ -283,6 +289,7 @@ hr.Section-separator{
   opacity: 100%;
   margin: 30px auto;
   border: 4px solid rgb(194, 194, 192);
+  background-color: rgb(194, 194, 192);
   border-radius: 5px;
 }
 
@@ -370,6 +377,7 @@ a{
   .Project-image, .Job-image{
     width: 100%;
     max-width: 100%;
+    padding-left: 30px;
   }
 }
 
