@@ -267,7 +267,7 @@ div.paragraph > p.content {
 }
 
 hr.Main-separator{
-  max-width: 95%;
+  max-width: 100%;
   opacity: 95%;
   margin: 20px auto;
   border: 3px solid rgb(194, 194, 192);
@@ -377,6 +377,8 @@ a{
   .Project-image, .Job-image{
     width: 100%;
     max-width: 100%;
+  }
+  .Job-image{
     padding-left: 30px;
   }
 }
