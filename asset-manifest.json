@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0c1d0b8.css",
+    "main.css": "/static/css/main.d12dca5b.css",
     "main.js": "/static/js/main.a61e5ad9.js",
     "static/js/787.49138e18.chunk.js": "/static/js/787.49138e18.chunk.js",
     "static/media/Vintranet.png": "/static/media/Vintranet.c6e19b9470ad648671b3.png",
@@ -13,12 +13,12 @@
     "static/media/Gray+Design+Vinnies+logo.jpg": "/static/media/Gray+Design+Vinnies+logo.21079882473e810a3755.jpg",
     "static/media/QFin-Logo.png": "/static/media/QFin-Logo.0b5aa4d4a04cac448a80.png",
     "index.html": "/index.html",
-    "main.c0c1d0b8.css.map": "/static/css/main.c0c1d0b8.css.map",
+    "main.d12dca5b.css.map": "/static/css/main.d12dca5b.css.map",
     "main.a61e5ad9.js.map": "/static/js/main.a61e5ad9.js.map",
     "787.49138e18.chunk.js.map": "/static/js/787.49138e18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c1d0b8.css",
+    "static/css/main.d12dca5b.css",
     "static/js/main.a61e5ad9.js"
   ]
 }
