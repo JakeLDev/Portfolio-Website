@@ -1,5 +1,6 @@
 import React from 'react';
 import mediaLinks from './mediaLinks';
+import resume from '../../Components/assets/Jake Lyell Computer Science CV v5.pdf';
 
 import "./FooterImgs.css"
 
@@ -34,6 +35,7 @@ const MyFooter = () => {
                             </a>
                         )}
                     </div>
+                    <a href={resume} download>Download my resume here!</a>
                 </div>
             </footer>
         </>
