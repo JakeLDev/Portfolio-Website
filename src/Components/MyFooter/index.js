@@ -35,7 +35,7 @@ const MyFooter = () => {
                             </a>
                         )}
                     </div>
-                    <a href={resume} download>Download my resume here!</a>
+                    <a href={resume} download="Jake Lyell Computer Science Resume">Download my resume here!</a>
                 </div>
             </footer>
         </>
