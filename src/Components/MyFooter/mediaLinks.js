@@ -13,7 +13,7 @@ const mediaLinks = [
     {
         Logo: FaLinkedin, 
         id: "linkedin-img",
-        href: "https://www.linkedin.com/in/jake-lyell-8a44b4180/"
+        href: "https://www.linkedin.com/in/jake-lyell/"
     },
     {
         Logo: FaFacebook, 
