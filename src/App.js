@@ -21,7 +21,7 @@ function App() {
     <AboutMe />
     <Projects />
     <WorkExperience />
-    {/* <Events /> */}
+    <Events />
 
     <ScrollButton />
     <MyFooter />

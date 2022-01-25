@@ -55,7 +55,7 @@ footer {
   /* background-color: rgb(37, 36, 36,); */
   width: 100%;
 }
-#bannerEnd, #aboutEnd, #projectEnd{
+#bannerEnd, #aboutEnd, #projectEnd, #eventEnd{
   height: 50px;
 }
 .banner-content{
@@ -251,11 +251,11 @@ div.paragraph > p.content {
   opacity: 100%;
 }
 
-.Project-container, .Jobs{
+.Project-container, .Jobs, .Events{
   display: block;
 }
 
-.Project, .Job{
+.Project, .Job, .Event{
   padding: 5px;
   display: inline-block;
   width: 95%;
@@ -263,6 +263,10 @@ div.paragraph > p.content {
 }
 
 .Job-Project-title, .Job-Project-desc, .Job-Project-tech{
+  padding-left: 30px;
+}
+
+.Job-Event-title, .Job-Event-desc, .Job-Event-tech{
   padding-left: 30px;
 }
 
@@ -293,11 +297,11 @@ hr.Section-separator{
   border-radius: 5px;
 }
 
-.Project-header {
+.Project-header  .Event-image{
   margin-top: 0px; 
 }
 
-.Project-image{
+.Project-image, .Event-image{
   float: left;
   display: inline-block;
   /* margin-left: 0;
@@ -374,7 +378,7 @@ a{
 }
 
 @media screen and (max-width: 1100px) {
-  .Project-image, .Job-image{
+  .Project-image, .Job-image, .Event-image {
     width: 100%;
     max-width: 100%;
   }

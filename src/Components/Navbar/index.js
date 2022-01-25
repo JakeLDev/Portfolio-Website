@@ -23,6 +23,9 @@ const Navbar = () => {
               <a href='#Work Experience' className="button">
                 Work Experience
               </a>
+              <a href='#Events' className="button">
+                Events
+              </a>
           </NavMenu>
       </Nav>
     </>

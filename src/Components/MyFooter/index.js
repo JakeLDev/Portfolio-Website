@@ -26,7 +26,7 @@ const MyFooter = () => {
                             <a 
                                 href={media.href}
                                 target="_blank"
-                                rel="noopener noreferrer"
+                                rel="noreferrer"
                             >
                                 <media.Logo
                                     className="link-photos"
