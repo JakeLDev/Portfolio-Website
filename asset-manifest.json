@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.d12dca5b.css",
-    "main.js": "/static/js/main.e0f2ddac.js",
+    "main.js": "/static/js/main.22389747.js",
     "static/js/787.49138e18.chunk.js": "/static/js/787.49138e18.chunk.js",
     "static/media/Vintranet.png": "/static/media/Vintranet.c6e19b9470ad648671b3.png",
     "static/media/JakeLyell.jpg": "/static/media/JakeLyell.f4e1abcf899c1cbb2cee.jpg",
-    "static/media/WAIS.png": "/static/media/WAIS.d97a0802d8405e5d3027.png",
     "static/media/WAPOL2.png": "/static/media/WAPOL2.4d0870bae011f66f0903.png",
-    "static/media/Jake Lyell Computer Science CV v5.pdf": "/static/media/Jake Lyell Computer Science CV v5.f06766e63a1e89f1de3d.pdf",
+    "static/media/WAIS.png": "/static/media/WAIS.893fe6408c1be8dcb87b.png",
     "static/media/Resistance.png": "/static/media/Resistance.adba70a0a25ad6b4c88c.png",
     "static/media/MomentumTrading.png": "/static/media/MomentumTrading.b8d35e06d9d42f78e8b4.png",
     "static/media/QFin-site.png": "/static/media/QFin-site.23872f21752ed5aac604.png",
     "static/media/Gray+Design+Vinnies+logo.jpg": "/static/media/Gray+Design+Vinnies+logo.21079882473e810a3755.jpg",
+    "static/media/Jake Lyell Computer Science Resume v1.pdf": "/static/media/Jake Lyell Computer Science Resume v1.07ace2aa4ac681a7508e.pdf",
     "static/media/QFin-Logo.png": "/static/media/QFin-Logo.0b5aa4d4a04cac448a80.png",
     "index.html": "/index.html",
     "main.d12dca5b.css.map": "/static/css/main.d12dca5b.css.map",
-    "main.e0f2ddac.js.map": "/static/js/main.e0f2ddac.js.map",
+    "main.22389747.js.map": "/static/js/main.22389747.js.map",
     "787.49138e18.chunk.js.map": "/static/js/787.49138e18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d12dca5b.css",
-    "static/js/main.e0f2ddac.js"
+    "static/js/main.22389747.js"
   ]
 }
