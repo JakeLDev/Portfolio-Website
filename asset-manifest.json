@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d12dca5b.css",
-    "main.js": "/static/js/main.22389747.js",
+    "main.css": "/static/css/main.c39982bd.css",
+    "main.js": "/static/js/main.54a0d6d2.js",
     "static/js/787.49138e18.chunk.js": "/static/js/787.49138e18.chunk.js",
     "static/media/Vintranet.png": "/static/media/Vintranet.c6e19b9470ad648671b3.png",
     "static/media/JakeLyell.jpg": "/static/media/JakeLyell.f4e1abcf899c1cbb2cee.jpg",
@@ -11,15 +11,15 @@
     "static/media/MomentumTrading.png": "/static/media/MomentumTrading.b8d35e06d9d42f78e8b4.png",
     "static/media/QFin-site.png": "/static/media/QFin-site.23872f21752ed5aac604.png",
     "static/media/Gray+Design+Vinnies+logo.jpg": "/static/media/Gray+Design+Vinnies+logo.21079882473e810a3755.jpg",
-    "static/media/Jake Lyell Computer Science Resume v1.pdf": "/static/media/Jake Lyell Computer Science Resume v1.07ace2aa4ac681a7508e.pdf",
+    "static/media/Jake Lyell Computer Science Resume v3.pdf": "/static/media/Jake Lyell Computer Science Resume v3.d16ffa8a6792366b8ca7.pdf",
     "static/media/QFin-Logo.png": "/static/media/QFin-Logo.0b5aa4d4a04cac448a80.png",
     "index.html": "/index.html",
-    "main.d12dca5b.css.map": "/static/css/main.d12dca5b.css.map",
-    "main.22389747.js.map": "/static/js/main.22389747.js.map",
+    "main.c39982bd.css.map": "/static/css/main.c39982bd.css.map",
+    "main.54a0d6d2.js.map": "/static/js/main.54a0d6d2.js.map",
     "787.49138e18.chunk.js.map": "/static/js/787.49138e18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d12dca5b.css",
-    "static/js/main.22389747.js"
+    "static/css/main.c39982bd.css",
+    "static/js/main.54a0d6d2.js"
   ]
 }
