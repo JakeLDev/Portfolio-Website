@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Jake from '../../Components/assets/portraits/JakeLyell.jpg';
+import { Fade } from "react-awesome-reveal";
 
 const AboutMe = () => {
     return (
@@ -27,6 +28,7 @@ const AboutMe = () => {
                                     Soon I will be building and programming a Sofle v2 split keyboard too.</p>
           </div>
           <h2 className="subheading">Skills</h2>
+          <Fade duration={2000}>
           <ul className="skills">
             <li className="skill">
               <span class="iconify" data-icon="logos:python" data-width="60" data-height="60"></span>
@@ -85,6 +87,7 @@ const AboutMe = () => {
               <p>Docker</p>
             </li>
           </ul>
+          </Fade>
         </div>
         <hr className="Section-separator"></hr>
     </>)};

@@ -2,6 +2,7 @@ import {
     FaGithub,
     FaLinkedin,
     FaFacebook,
+    FaTwitter,
 } from 'react-icons/fa';
 
 const mediaLinks = [
@@ -20,6 +21,11 @@ const mediaLinks = [
         id: "facebook-img",
         href: "https://www.facebook.com/profile.php?id=100010309815833"
     },
+    {
+        Logo: FaTwitter,
+        id: "twitter-img",
+        href: "https://twitter.com/JakeLDev"
+    }
 ];
 
 export default mediaLinks;
