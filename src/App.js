@@ -14,17 +14,17 @@ import Events from './Pages/Events';
 function App() {
   return (
     <>
-    <Navbar />
-    <Banner title="Software Engineer"/>
-    <ParticlesCanvas />
+      <Navbar />
+      <Banner title="Software Engineer" />
+      <ParticlesCanvas />
 
-    <AboutMe />
-    <Projects />
-    <WorkExperience />
-    {/* <Events /> */}
+      <AboutMe />
+      <Projects />
+      <WorkExperience />
+      <Events />
 
-    <ScrollButton />
-    <MyFooter />
+      <ScrollButton />
+      <MyFooter />
     </>
   );
 }

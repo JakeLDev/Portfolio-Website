@@ -338,6 +338,12 @@ hr.Section-separator{
   /* padding: 10px; */
   padding-right: 10px;
 }
+.contact-icon {
+  color: white;
+  height: 35px;
+  width: auto;
+  margin: 0px 10px 0px 0px;
+}
 
 a{
   color: inherit;
