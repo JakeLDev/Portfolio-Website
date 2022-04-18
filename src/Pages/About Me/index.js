@@ -12,7 +12,7 @@ const AboutMe = () => {
         </div>
         <h1 className="title">About me</h1>
         <div className="paragraph">
-          <p className="content" style={{ textAlign: "center" }}>My name is Jake Lyell, I'm a 20 year old Computer Science student pursuing a career in Software Engineering. Currently interviewing for Graduate Positions!</p>
+          <p className="content" style={{ textAlign: "center" }}>My name is Jake Lyell, I'm a 20 year old Computer Science student pursuing a career in Software Engineering. Recently accepted an offer for a Graduate Position at Atlassian !</p>
         </div>
         <h2 className="subheading">Education</h2>
         <div className="paragraph">
@@ -25,10 +25,10 @@ const AboutMe = () => {
         <div className="paragraph">
           <p className="content"> I enjoy playing video games, building computers and completing coding projects either for my own amusement or for one of the university clubs that I am involved in.
             I have also recently started building and programming keyboards, starting with the relatively simple GMMK Pro and moving onto soldering a Dumbpad (12 key macropad with rotary encoder).
-            Soon I will be building and programming a Sofle v2 split keyboard too.</p>
+            I have also built and programmed a Sofle v2 split ortholinear keyboard.</p>
         </div>
         <h2 className="subheading">Skills</h2>
-        <Fade duration={2000}>
+        <Fade duration={2000} triggerOnce="true">
           <ul className="skills">
             <li className="skill">
               <span class="iconify" data-icon="logos:python" data-width="60" data-height="60"></span>

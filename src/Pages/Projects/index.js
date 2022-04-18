@@ -17,7 +17,7 @@ const Projects = () => {
                 </div>
                 <div className="Project-container">
                     <hr className="Sub-separator"></hr>
-                    <Fade duration={1500}>
+                    <Fade duration={1500} triggerOnce="true">
                         <Project title="Crime Data Visualisation for the WA Police Force"
                             image={WAPOL}
                             desc="Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
@@ -25,7 +25,7 @@ const Projects = () => {
                             repo="Private as requested by WAPOL" />
                     </Fade>
                     <hr className="Sub-separator"></hr>
-                    <Fade duration={1500}>
+                    <Fade duration={1500} triggerOnce="true">
                         <Project title="Momentum Trading Algorithm"
                             image={MOMENTUM}
                             desc="Created a set of algorithms to trade cryptocurrencies, based around the trading strategy of “momentum trading”. The results were then documented in a report. (The Semester 2 Project for QFin UWA’s Trading Team). Worked in a team of 3 people to create a set of Python algorithms with the goal of achieving a positive return when trading on 2020 price data for popular cryptocurrencies. Our algorithm was tested against both the market and the other trading teams’ algorithms. Our algorithm greatly outperformed the market, sometimes returning as good as 8x the return as opposed to buying and holding. We also outperformed the algorithms written by all other teams."
@@ -33,7 +33,7 @@ const Projects = () => {
                             repolink="https://github.com/QFinUWA/2021-Momentum-Trading-Buy-Low-Sell-Lower" />
                     </Fade>
                     <hr className="Sub-separator"></hr>
-                    <Fade duration={1500}>
+                    <Fade duration={1500} triggerOnce="true">
                         <Project title="“The Resistance” Card Game Artificial Intelligence Agent"
                             image={RESISTANCE}
                             desc="Researched and developed a game-playing Artificial Intelligence agent to play the card game “The Resistance” to compete in a tournament at UWA. We created an agent that utilizes Bayes’ Rule for calculating probabilities in a Bayesian, imperfect information game."

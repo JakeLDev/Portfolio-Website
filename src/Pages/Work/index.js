@@ -16,7 +16,7 @@ const WorkExperience = () => {
                 <h1 className="title">Work Experience and Roles</h1>
 
                 <div className="Jobs">
-                    <Fade duration={1500}>
+                    <Fade duration={1500} triggerOnce="true">
                         <div className="Job">
                             <img className="Job-logo" src={Vinnies} alt="Vinnies Logo" width="100px" height="100px" />
                             <h2 className="Job-title">St Vincent de Paul (Vinnies WA) | Web Developer</h2>
@@ -32,7 +32,7 @@ const WorkExperience = () => {
 
                     <hr className="Main-separator"></hr>
 
-                    <Fade duration={1500}>
+                    <Fade duration={1500} triggerOnce="true">
                         <div className="Job">
                             <img className="Job-logo" src={QFin} alt="QFin Logo" width="100px" height="100px" />
                             <h2 className="Job-title">QFin UWA | Executive Director of Trading</h2>
@@ -63,7 +63,7 @@ const WorkExperience = () => {
 
                     <hr className="Main-separator"></hr>
 
-                    <Fade duration={1500}>
+                    <Fade duration={1500} triggerOnce="true">
                         <div className="Job">
                             <img className="Job-logo" src={CFC} alt="CFC Logo" width="100px" height="100px" />
                             <h2 className="Job-title">Coders for Causes UWA | Volunteer Software Engineer</h2>
