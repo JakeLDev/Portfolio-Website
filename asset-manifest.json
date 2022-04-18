@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.6e9287c9.css",
-    "main.js": "/static/js/main.d7d47ce8.js",
+    "main.js": "/static/js/main.3acf65c4.js",
     "static/js/787.49138e18.chunk.js": "/static/js/787.49138e18.chunk.js",
     "static/media/Vintranet.png": "/static/media/Vintranet.c6e19b9470ad648671b3.png",
     "static/media/TradingTeamProjectStart.jpg": "/static/media/TradingTeamProjectStart.4e64a55e990d95bdc265.jpg",
     "static/media/JakeLyell.jpg": "/static/media/JakeLyell.f4e1abcf899c1cbb2cee.jpg",
+    "static/media/IMCPythonWorkshop.jpg": "/static/media/IMCPythonWorkshop.9c228c0b2f2bdd3e17be.jpg",
     "static/media/WAPOL2.png": "/static/media/WAPOL2.4d0870bae011f66f0903.png",
     "static/media/WAIS.png": "/static/media/WAIS.893fe6408c1be8dcb87b.png",
     "static/media/Resistance.png": "/static/media/Resistance.adba70a0a25ad6b4c88c.png",
@@ -16,11 +17,11 @@
     "static/media/Jake Lyell Computer Science Resume v3.pdf": "/static/media/Jake Lyell Computer Science Resume v3.d16ffa8a6792366b8ca7.pdf",
     "index.html": "/index.html",
     "main.6e9287c9.css.map": "/static/css/main.6e9287c9.css.map",
-    "main.d7d47ce8.js.map": "/static/js/main.d7d47ce8.js.map",
+    "main.3acf65c4.js.map": "/static/js/main.3acf65c4.js.map",
     "787.49138e18.chunk.js.map": "/static/js/787.49138e18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e9287c9.css",
-    "static/js/main.d7d47ce8.js"
+    "static/js/main.3acf65c4.js"
   ]
 }
