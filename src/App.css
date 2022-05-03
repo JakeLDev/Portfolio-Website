@@ -245,7 +245,7 @@ div.paragraph > p.content {
   /* justify-self: center; */
   /* display: flex; */
   object-fit: cover;
-  max-width: 220px;
+  max-width: 280px;
   /* max-height:230px; */
   padding: 10px;
   opacity: 100%;
@@ -262,7 +262,7 @@ div.paragraph > p.content {
   height: auto;
 }
 
-.Job-Project-title, .Job-Project-desc, .Job-Project-tech{
+.Job-Project-title, .Job-Project-desc, .Job-Project-tech, .Job-Project-repo{
   padding-left: 30px;
 }
 
