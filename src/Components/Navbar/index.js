@@ -6,10 +6,8 @@ import {
   //NavBtnLink,
 } from './NavbarElements';
 
-import "./navbar.css"
-
 const Navbar = () => {
-
+  
   return (
     <>
       <Nav>

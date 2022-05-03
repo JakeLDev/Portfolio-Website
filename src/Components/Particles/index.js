@@ -2,6 +2,7 @@ import Particles from "react-tsparticles";
 // import "./canvas.css"
 
 const ParticlesCanvas = () => {
+
   const particlesInit = (main) => {
     // console.log(main);
 
