@@ -6,7 +6,8 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
   // position: sticky;
   top: 0;
-  background: rgba(34, 34, 34, .80);
+  // background: rgba(34, 34, 34, .80);
+  background: ${props => props.theme.navColor};
   height: 50px;
   display:flex;
   justify-content: center;
@@ -22,7 +23,7 @@ export const Nav = styled.nav`
     height: minmax(100%, max-content);
     height: max-content;
   }
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 800px) {
     visibility: hidden;
   }
 `;
@@ -30,6 +31,7 @@ export const Nav = styled.nav`
 // Colour of text on nav bar
 export const NavLink = styled(Link)`
   color: rgba(237, 237, 237, .9);
+  color: ${props => props.theme.fontColor};
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -41,11 +43,11 @@ export const NavLink = styled(Link)`
   cursor: pointer;
   &.active {
     color: #000000;
-    background: rgba(34, 166, 171, .35);
+    background: ${props => props.theme.navHoverColor};
   }
   &:hover {
     color: #000000;
-    background: rgba(34, 166, 171, .95);
+    background: ${props => props.theme.navHoverColor};
     font-weight: bold;
 
   }
@@ -69,7 +71,7 @@ export const NavMenu = styled.div`
   /* margin-right: 24px; */
   /* Third Nav */
   white-space: nowrap; */
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 800px) {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
