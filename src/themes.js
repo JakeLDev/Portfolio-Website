@@ -19,8 +19,6 @@ export const synthTheme = {
     navHoverColor: "rgba(246, 1, 157, 0.95)",
     navHoverFontColor: "rgba(84, 19, 136, 1)",
     footerColor: "rgba(38, 20, 71, 1)",
-    // particleColor: "rgba(45, 32, 84, 1)",
-    particleColor: "red",
 }
 
 export const GlobalStyles = createGlobalStyle` 

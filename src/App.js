@@ -13,8 +13,6 @@ import Events from './Pages/Events';
 
 import { ThemeProvider } from "styled-components"
 import {darkTheme, synthTheme, GlobalStyles} from "./themes.js"
-import tsParticles from "react-tsparticles";
-// import { ThemeConsumer } from 'styled-components';
 
 import synthwave from './Components/assets/vaporwave.png'
 
@@ -24,16 +22,6 @@ function App() {
 
   const themeToggler = () => {
     theme === 'dark' ? setTheme('synth') : setTheme('dark');
-
-    // const particles = document.getElementById("tsparticles");
-    // const options = particles.options;
-    // console.log(particles);
-    // console.log('tset');
-    // options.particles.color.value = theme.particleColor;
-    // // options.lineLinked.color = currentTheme.color;
-    // // options.particles.shape.stroke.color = currentTheme.bgColor;
-
-    // particles.refresh();
   }
 
   return (
