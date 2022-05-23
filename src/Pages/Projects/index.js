@@ -3,6 +3,7 @@ import React from 'react';
 import WAPOL from '../../Components/assets/projects/WAPOL2.png';
 import MOMENTUM from '../../Components/assets/projects/MomentumTrading.png';
 import RESISTANCE from '../../Components/assets/projects/Resistance.png';
+import PICCOMING from "../../Components/assets/projects/image-coming.png"
 import Project from '../../Components/Project';
 import { Fade } from "react-awesome-reveal";
 
@@ -36,9 +37,17 @@ const Projects = () => {
                     <Fade duration={1500} triggerOnce="true">
                         <Project title="“The Resistance” Card Game Artificial Intelligence Agent"
                             image={RESISTANCE}
-                            desc="Researched and developed a game-playing Artificial Intelligence agent to play the card game “The Resistance” to compete in a tournament at UWA. We created an agent that utilizes Bayes’ Rule for calculating probabilities in a Bayesian, imperfect information game."
+                            desc="Researched and developed a game-playing Artificial Intelligence agent to play the card game “The Resistance” to compete in a tournament at UWA. We created an agent that utilizes Bayes’ Rule for calculating probabilities in a Bayesian, imperfect information game. Received full marks for Player vs Player performance"
                             tools="Python"
                             repolink="https://github.com/JakeLDev/The-Resistance-AI-CITS3001" />
+                    </Fade>
+                    <hr className="Sub-separator"></hr>
+                    <Fade duration={1500} triggerOnce="true">
+                        <Project title="Another Markdown Editor (In Progress)"
+                            image={PICCOMING}
+                            desc="A simple desktop app to create, edit and organize markdown (.MD) files " 
+                            tools="Electron.js, Typescript, React.js, (backend TBD)"
+                            repolink="https://github.com/JakeLDev/another-markdown-editor" />
                     </Fade>
                 </div>
             </div>

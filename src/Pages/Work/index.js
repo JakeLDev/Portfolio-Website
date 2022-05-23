@@ -57,8 +57,9 @@ const WorkExperience = () => {
 
                             <h3 className='Job-Project-title'>Trading Team Project - Semester 1, 2022</h3>
                             <p className='Job-Project-desc'>Created a project for the QFin Trading Team to complete in Semester 1, 2022. This Project is focused around the concept of Mean Reversion, a mathematical theory which claims that seeing a result that is significantly above or below a mean, will mean that the next result is likely to be closer to the mean. Therefore, in theory, you can place buy or sell orders for financial assets on the basis of how far the current price is from the average price. The project will task the Trading Team with creating an optimized trading algorithm which utilizes Mean Reversion to turn a profit on historical price data.</p>
-                            <p className='Job-Project-desc'>I created the stock data retreival API, the Back-testing engine, and the outline/rubric of the Project</p>
+                            <p className='Job-Project-desc'>I created the stock data API Interface, the Back-testing engine, and the outline/rubric of the Project</p>
                             <p className='Job-Project-desc'>The results of this project will be featured on the QFin GitHub after completion</p>
+                            <p className="Job-Project-repo"><b>Reports: </b><a href='https://github.com/QFinUWA/Mean-Reversion-Trading-Team-Project-Semester-1-2022' target="_blank" rel="noopener noreferrer">https://github.com/QFinUWA/project-results/2022/semester1</a></p>
                             <p className="Job-Project-repo"><b>Repository: </b><a href='https://github.com/QFinUWA/Mean-Reversion-Trading-Team-Project-Semester-1-2022' target="_blank" rel="noopener noreferrer">https://github.com/QFinUWA/Mean-Reversion-Trading-Team-Project-Semester-1-2022</a></p>
                             <p className="Job-Project-tech"> <b>Technologies: </b>Python, Pandas, Numpy, Alpha Vantage Stock APIs, Custom Back-testing Framework</p>
                         </div>
@@ -71,12 +72,12 @@ const WorkExperience = () => {
                             <img className="Job-logo" src={CFC} alt="CFC Logo" width="100px" height="100px" />
                             <h2 className="Job-title">Coders for Causes UWA | Volunteer Software Engineer</h2>
                             <h3 className="Job-subtitle">November 2021 - March 2022</h3>
-                            <p className="Job-desc"> <b>Role: </b>Volunteer developer for the Coders For Causes club at UWA. A club that provides volunteer software engineering teams for non-profit companies and charities. I am participating in one of the summer projects for the Western Australian Institute of Sport in creating a web application for the track and field division.</p>
+                            <p className="Job-desc"> <b>Role: </b>Volunteer developer for the Coders For Causes club at UWA. A club that provides volunteer software engineering teams for non-profit companies and charities. I participated in one of the summer projects for the Western Australian Institute of Sport by creating a web application for the track and field division.</p>
                             <h3 className="Job-desc"> <b>Projects: </b></h3>
                             <h3 className='Job-Project-title'>Web Application for Western Australian Institute of Sport</h3>
-                            <p className="Job-Project-desc">Created a Web Application for WAIS to help visualise the performance of pole vaulters in training. We incorporated computer vision software and user input to allow coaches to best train their athletes. Working in a team of volunteers through Coders For Causes.</p>
+                            <p className="Job-Project-desc">Developed a Web Application for WAIS to help visualise the performance of pole vaulters in training. We incorporated computer vision software and user input to allow coaches to best train their athletes. Working in a large team of volunteers.</p>
                             <img className="Job-image" src={WAIS} alt="WAIS" />
-                            <p className="Job-Project-tech"> <b>Technologies: </b>Vue.js, Django, HTML, CSS, JavaScript, Docker</p>
+                            <p className="Job-Project-tech"> <b>Technologies: </b>Vue.js, Django, HTML, CSS, JavaScript, Docker, PostgreSQL</p>
                             <br></br>
                         </div>
                     </Fade>

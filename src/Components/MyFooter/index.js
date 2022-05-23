@@ -18,8 +18,8 @@ const MyFooter = () => {
                 <div className="footer-content">
                     <h2 id="footer-header">Contact Me</h2>
                     <p>
-                        <button onClick={mailme}>Email Me</button>  <br/>
-                        me@jakelyell.dev
+                        {/* <button onClick={mailme}>Email Me</button>  <br/> */}
+                        <a href="mailto:me@jakelyell.dev" target="_blank" rel="noreferrer">me@jakelyell.dev</a>
                     </p>
                     <div className="footer-icons">
                         {mediaLinks.map((media) => 
@@ -36,6 +36,9 @@ const MyFooter = () => {
                         )}
                     </div>
                     <a href={resume} download="Jake Lyell Computer Science Resume.pdf">Download my resume here!</a>
+                </div>
+                <div>
+                <p className="content" style={{textAlign: "center", margin: "2px 0", }}>Website created with ♥ (and React.js)</p>
                 </div>
             </footer>
         </>
