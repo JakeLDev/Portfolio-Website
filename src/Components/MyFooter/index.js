@@ -1,6 +1,6 @@
 import React from 'react';
 import mediaLinks from './mediaLinks';
-import resume from '../../Components/assets/Jake Lyell Computer Science Resume v3.pdf';
+import resume from '../../Components/assets/Jake Lyell Computer Science Resume v4.pdf';
 
 import "./FooterImgs.css"
 
