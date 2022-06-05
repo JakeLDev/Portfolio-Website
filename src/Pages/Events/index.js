@@ -4,7 +4,6 @@ import Event from '../../Components/Event';
 import TradingTeamProjectStart from "../../Components/assets//events//TradingTeamProjectStart.jpg"
 import IMCPythonWorkshop from "../../Components/assets//events//IMCPythonWorkshop.jpg"
 import IMCTradingReview from "../../Components/assets/events/IMCTradingReview.jpg"
-// import PICCOMING from "../../Components/assets/projects/image-coming.png"
 
 
 import { Fade } from "react-awesome-reveal";
