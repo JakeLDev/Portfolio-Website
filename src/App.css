@@ -43,7 +43,8 @@ footer {
   padding: 10px;
 }
 .footer-content{
-  max-width: 70%;
+  max-width: 1300px;
+  width: 70%;
   margin: auto;
 }
 .footer-content > a{
@@ -151,7 +152,8 @@ div.page{
   justify-content: center;
   height: auto;
   /* min-height: 100vh; */
-  max-width: 65%;
+  width: 65%;
+  max-width: 1200px;
   margin: auto;
   z-index: 1;
   border-radius: 10px;
@@ -288,7 +290,8 @@ hr.Sub-separator{
 }
 
 hr.Section-separator{
-  max-width: 70%;
+  max-width: 1300px;
+  width: 70%;
   opacity: 100%;
   margin: 30px auto;
   border: 4px solid rgb(194, 194, 192);
