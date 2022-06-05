@@ -3,7 +3,8 @@ import React from 'react';
 import Event from '../../Components/Event';
 import TradingTeamProjectStart from "../../Components/assets//events//TradingTeamProjectStart.jpg"
 import IMCPythonWorkshop from "../../Components/assets//events//IMCPythonWorkshop.jpg"
-import PICCOMING from "../../Components/assets/projects/image-coming.png"
+import IMCTradingReview from "../../Components/assets/events/IMCTradingReview.jpg"
+// import PICCOMING from "../../Components/assets/projects/image-coming.png"
 
 
 import { Fade } from "react-awesome-reveal";
@@ -20,7 +21,7 @@ const Events = () => {
                 <div className='Event-container'>
                 <Fade duration={2000} triggerOnce="true">
                         <Event title="QFin x IMC - Trading Team Project Review"
-                            image={PICCOMING}
+                            image={IMCTradingReview}
                             date="10th of May 2022"
                             desc="IMC Trading sent out one of their Quant Traders, Leo Li, to review the Trading Teams' algorithms from the semester and gave his feedback. I was meant to present the project and the results to Leo, however unfortunately I fell sick to COVID right before the event. Instead our Vice-President, Kane Alexander filled in and presented my presentation."
                             host="Kane Alexander (fill-in for me)"
