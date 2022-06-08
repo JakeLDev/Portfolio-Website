@@ -4,15 +4,8 @@ import MyFooter from './Components/MyFooter';
 import ScrollButton from './Components/ScrollButton';
 import ParticlesCanvas from './Components/Particles';
 import Navbar from './Components/Navbar';
-import Banner from './Components/Banner';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HashRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
-
-import AboutMe from './Pages/About Me';
-import Projects from './Pages/Projects';
-import WorkExperience from './Pages/Work';
-import Events from './Pages/Events';
 import Blog from './Pages/Blog';
 import Master from './Pages/Master';
 
