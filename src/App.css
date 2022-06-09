@@ -43,7 +43,8 @@ footer {
   padding: 10px;
 }
 .footer-content{
-  max-width: 70%;
+  max-width: 1300px;
+  width: 70%;
   margin: auto;
 }
 .footer-content > a{

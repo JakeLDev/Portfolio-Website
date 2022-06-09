@@ -26,8 +26,8 @@ const Events = () => {
                             host="Kane Alexander (fill-in for me)"
                             sponsor="IMC"
                             attendees="Trading Team + Committee"
-                            linkedin="dummy link" // TODO
-                            facebook="dummy link" /> 
+                            linkedin=""
+                            facebook="https://www.facebook.com/QFinUWA/posts/427254369402191" /> 
                     </Fade>
                     <Fade duration={2000} triggerOnce="true">
                         <Event title="QFin x IMC - Introduction to Python Workshop"
