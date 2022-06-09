@@ -166,7 +166,7 @@ div.blog-page {
   justify-content: center;
   height: auto;
   min-height: 100vh;
-  /* max-width: 1200px; */
+  max-width: 2000px;
   width: 95%;
   margin: auto;
   z-index: 1;
@@ -270,11 +270,21 @@ div.paragraph > p.content {
   display: block;
 }
 
-.Project, .Job, .Event, .BlogPost{
+.Project, .Job, .Event {
   padding: 5px;
   display: inline-block;
   width: 95%;
   height: auto;
+}
+
+.BlogPost {
+  padding: 15px;
+  display: inline-block;
+  width: 95%;
+  height: auto;
+  border-radius: 5px;
+  background-color: rgb(37, 36, 36);
+  margin: 10px;
 }
 
 .blog-column {
@@ -321,7 +331,7 @@ hr.Section-separator{
   margin-top: 0px; 
 }
 
-.Project-image, .Event-image, .BlogPost-image{
+.Project-image, .Event-image{
   float: left;
   display: inline-block;
   /* margin-left: 0;
@@ -333,6 +343,29 @@ hr.Section-separator{
   /* padding: 10px; */
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+.BlogPost-image{
+  /* float: left; */
+  display: inline;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  max-width: 500px;
+  object-fit: cover;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.BlogPost-desc {
+  margin-bottom: 0;
+  margin-top: 8px;
+  /* margin-left: 15px; */
+}
+
+.BlogPost-header {
+  margin-bottom: 0;
+  margin-top: 8px;
 }
 
 .Job-image{
