@@ -3,6 +3,8 @@ on:
   push:
     branches: 
       - main
+env:
+  CI: ""
 permissions: 
   contents: write
 jobs:
