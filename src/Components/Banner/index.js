@@ -10,7 +10,7 @@ const Banner = (children) => {
                     </h1>
                 </div>
             </div>
-            <div class="scroll-btn-container">
+            <div className="scroll-btn-container">
                     <div>
                     <a href="#bannerEnd" id="scroll-btn-header">
                         <span></span>

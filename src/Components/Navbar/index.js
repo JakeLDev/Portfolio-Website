@@ -12,17 +12,20 @@ const Navbar = () => {
     <>
       <Nav>
           <NavMenu>
-              <a href='#About Me' className="button">
+              <a href='/#About Me' className="button">
                 About Me
               </a>
-              <a href='#Projects' className="button">
+              <a href='/#Projects' className="button">
                 Projects
               </a>
-              <a href='#Work Experience' className="button">
+              <a href='/#Work Experience' className="button">
                 Work Experience
               </a>
-              <a href='#Events' className="button">
+              <a href='/#Events' className="button">
                 Events
+              </a>
+              <a href='/Blog' className="button">
+                Blog -&gt;
               </a>
           </NavMenu>
       </Nav>

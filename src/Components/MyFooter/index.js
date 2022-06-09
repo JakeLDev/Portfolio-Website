@@ -25,6 +25,7 @@ const MyFooter = () => {
                         {mediaLinks.map((media) => 
                             <a 
                                 href={media.href}
+                                key={media.id}
                                 target="_blank"
                                 rel="noreferrer"
                             >

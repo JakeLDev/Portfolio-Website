@@ -23,8 +23,9 @@ export const Nav = styled.nav`
     height: minmax(100%, max-content);
     height: max-content;
   }
-  @media screen and (max-width: 800px) {
-    visibility: hidden;
+  @media screen and (max-width: 925px) {
+    // visibility: hidden;
+    display: none;
   }
 `;
 
@@ -71,7 +72,7 @@ export const NavMenu = styled.div`
   /* margin-right: 24px; */
   /* Third Nav */
   white-space: nowrap; */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 925px) {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;

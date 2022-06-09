@@ -14,7 +14,7 @@ const Projects = () => {
                 <h1 className="title">Projects</h1>
                 <h3 className="subheading" style={{ textAlign: "center" }}><a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer">GitHub</a></h3>
                 <div className="paragraph">
-                    <p className="content" style={{ textAlign: "center" }}>Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work.</p>
+                    <p className="content" style={{ textAlign: "center" }}>Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work. (More Projects are featured below in the "Work Experience" section)</p>
                 </div>
                 <div className="Project-container">
                     <hr className="Sub-separator"></hr>
