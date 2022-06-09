@@ -6,6 +6,7 @@ import ParticlesCanvas from './Components/Particles';
 import Navbar from './Components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 
+
 import Blog from './Pages/Blog';
 import Master from './Pages/Master';
 

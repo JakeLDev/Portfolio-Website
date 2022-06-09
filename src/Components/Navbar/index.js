@@ -5,6 +5,7 @@ import {
   //NavBtn,
   //NavBtnLink,
 } from './NavbarElements';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   
@@ -12,21 +13,21 @@ const Navbar = () => {
     <>
       <Nav>
           <NavMenu>
-              <a href='/#About Me' className="button">
+              <Link to='/#About Me' className="button">
                 About Me
-              </a>
-              <a href='/#Projects' className="button">
+              </Link>
+              <Link to='/#Projects' className="button">
                 Projects
-              </a>
-              <a href='/#Work Experience' className="button">
+              </Link>
+              <Link to='/#Work Experience' className="button">
                 Work Experience
-              </a>
-              <a href='/#Events' className="button">
+              </Link>
+              <Link to='/#Events' className="button">
                 Events
-              </a>
-              <a href='/Blog' className="button">
+              </Link>
+              <Link to='/Blog' className="button">
                 Blog -&gt;
-              </a>
+              </Link>
           </NavMenu>
       </Nav>
     </>
