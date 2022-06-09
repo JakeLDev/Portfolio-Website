@@ -284,7 +284,7 @@ div.paragraph > p.content {
   width: 95%;
   height: auto;
   border-radius: 5px;
-  background-color: rgb(37, 36, 36);
+  background-color: rgba(37, 36, 36, .8);
   margin: 10px;
 }
 
