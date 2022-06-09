@@ -5,6 +5,7 @@ import Vinnies from '../../Components/assets/Gray+Design+Vinnies+logo.jpg';
 import Vintranet from '../../Components/assets/projects/Vintranet.png';
 import QFin from '../../Components/assets/QFin-Logo2.png';
 import QFinSite from '../../Components/assets/projects/QFin-site2.png';
+import MeanReversionProject from '../../Components/assets/projects/MeanReversionProject.png';
 import CFC from '../../Components/assets/CFC.png';
 import WAIS from '../../Components/assets/projects/WAIS.png';
 import { Fade } from "react-awesome-reveal";
@@ -57,6 +58,7 @@ const WorkExperience = () => {
 
                             <h3 className='Job-Project-title'>Trading Team Project - Semester 1, 2022</h3>
                             <p className='Job-Project-desc'>Created a project for the QFin Trading Team to complete in Semester 1, 2022. This Project is focused around the concept of Mean Reversion, a mathematical theory which claims that seeing a result that is significantly above or below a mean, will mean that the next result is likely to be closer to the mean. Therefore, in theory, you can place buy or sell orders for financial assets on the basis of how far the current price is from the average price. The project will task the Trading Team with creating an optimized trading algorithm which utilizes Mean Reversion to turn a profit on historical price data.</p>
+                            <img className="Job-image" src={MeanReversionProject} alt="Mean Reversion Project" />
                             <p className='Job-Project-desc'>I created the stock data API Interface, the Back-testing engine, and the outline/rubric of the Project</p>
                             <p className='Job-Project-desc'>The results of this project will be featured on the QFin GitHub after completion</p>
                             <p className="Job-Project-repo"><b>Reports: </b><a href='https://github.com/QFinUWA/Project-Results/tree/main/2022/Semester1-Mean-Reversion' target="_blank" rel="noopener noreferrer">https://github.com/QFinUWA/Project-Results/tree/main/2022/Semester1-Mean-Reversion</a></p>
@@ -75,7 +77,7 @@ const WorkExperience = () => {
                             <p className="Job-desc"> <b>Role: </b>Volunteer developer for the Coders For Causes club at UWA. A club that provides volunteer software engineering teams for non-profit companies and charities. I participated in one of the summer projects for the Western Australian Institute of Sport by creating a web application for the track and field division.</p>
                             <h3 className="Job-desc"> <b>Projects: </b></h3>
                             <h3 className='Job-Project-title'>Web Application for Western Australian Institute of Sport</h3>
-                            <p className="Job-Project-desc">Developed a Web Application for WAIS to help visualise the performance of pole vaulters in training. We incorporated computer vision software and user input to allow coaches to best train their athletes. Working in a large team of volunteers.</p>
+                            <p className="Job-Project-desc">Developed a Web Application for WAIS to help visualise the performance of pole vaulters in training. We incorporated computer vision software and user input to allow coaches to best train their athletes. Worked in a large team of volunteers to develop the full stack of this application.</p>
                             <img className="Job-image" src={WAIS} alt="WAIS" />
                             <p className="Job-Project-tech"> <b>Technologies: </b>Vue.js, Django, HTML, CSS, JavaScript, Docker, PostgreSQL</p>
                             <br></br>

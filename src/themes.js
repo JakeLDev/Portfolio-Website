@@ -5,6 +5,7 @@ export const darkTheme = {
    fontColor: "rgb(226, 226, 226)",
    secondaryFontColor: "rgb(226, 226, 226)",
    pageColor: "rgba(20, 20, 22, .9)",
+   blogColor: "rgba(20, 20, 22, .4)",
    navColor: "rgba(34, 34, 34, .80)",
    navHoverColor: "rgba(179, 179, 179, 1)",
    navHoverFontColor: "black",
@@ -15,6 +16,7 @@ export const synthTheme = {
     fontColor: "#93e3e6",
     secondaryFontColor: "rgba(246, 1, 157, 1)",
     pageColor: "rgba(45, 32, 84, .8)",
+    blogColor: "rgba(45, 32, 84, .4)",
     navColor: "rgba(45, 226, 230, .8)",
     navHoverColor: "rgba(246, 1, 157, 0.95)",
     navHoverFontColor: "rgba(84, 19, 136, 1)",
@@ -29,6 +31,10 @@ export const GlobalStyles = createGlobalStyle`
     
     div.page{
         background: ${props => props.theme.pageColor};
+    }
+
+    div.blog-page{
+        background: ${props => props.theme.blogColor};
     }
 
     a.button:hover {
