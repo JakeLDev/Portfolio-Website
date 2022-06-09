@@ -151,7 +151,7 @@ div.page {
   font-family: 'Inter', sans-serif;
   justify-content: center;
   height: auto;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   max-width: 1200px;
   width: 75%;
   margin: auto;
