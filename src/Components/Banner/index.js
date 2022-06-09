@@ -1,4 +1,6 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const Banner = (children) => {
     return (
@@ -12,11 +14,11 @@ const Banner = (children) => {
             </div>
             <div className="scroll-btn-container">
                     <div>
-                    <a href="#bannerEnd" id="scroll-btn-header">
+                    <Link to='/#bannerEnd' id="scroll-btn-header">
                         <span></span>
                         <span></span>
                         <span></span>
-                    </a>
+                    </Link>
                     </div>  
             </div>
             <div id="bannerEnd"></div>
