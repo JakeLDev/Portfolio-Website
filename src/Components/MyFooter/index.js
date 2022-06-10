@@ -4,13 +4,6 @@ import resume from '../../Components/assets/Jake Lyell Computer Science Resume v
 
 import "./FooterImgs.css"
 
-const mailme = () => {
-    if (typeof window !== 'undefined') {
-        window.location.href="mailto:me@jakelyell.dev";
-    }
-}
-
-
 const MyFooter = () => {
     return (
         <>

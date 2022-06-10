@@ -13,19 +13,19 @@ const Navbar = () => {
     <>
       <Nav>
           <NavMenu>
-              <Link to='/#About Me' className="button">
+              <Link to='/#About Me' className="button" id="notblog">
                 About Me
               </Link>
-              <Link to='/#Projects' className="button">
+              <Link to='/#Projects' className="button" id="notblog">
                 Projects
               </Link>
-              <Link to='/#Work Experience' className="button">
+              <Link to='/#Work Experience' className="button" id='notblog'>
                 Work Experience
               </Link>
-              <Link to='/#Events' className="button">
+              <Link to='/#Events' className="button" id="notblog">
                 Events
               </Link>
-              <Link to='/Blog' className="button">
+              <Link to='/Blog' className="button" id="blog">
                 Blog -&gt;
               </Link>
           </NavMenu>

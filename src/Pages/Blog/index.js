@@ -1,6 +1,7 @@
 import React from 'react';
 import BlogPost from '../../Components/BlogPost';
 import Widget from '../../Components/Widget';
+import BlogNavbar from '../../Components/BlogNavbar';
 
 import ATLASSIAN from '../../Components/assets/blog/Atlassian.png';
 import FinalMeanReversionAlgorithm from '../../Components/assets/blog/FinalMeanReversionAlgorithm.png';
@@ -8,6 +9,7 @@ import FinalMeanReversionAlgorithm from '../../Components/assets/blog/FinalMeanR
 const Blog = () => {
     return (
         <>
+            <BlogNavbar />
             <div className="blog-page" id='Blog'>
                 <h1 className="title">What I've been up to recently</h1>
                 <div className="widget-container">
@@ -54,14 +56,14 @@ const Blog = () => {
                             <Widget
                                 title="Planned Future Projects"
                                 desc1={<ul>
-                                        <li>Twitter Cleanliness Bot</li>
-                                        <li>Large scale Web App with friends</li>
+                                        <li>Twitter Hygiene Bot</li>
+                                        <li>Large scale web application with friends</li>
                                         <li>Flight Price Tracker</li>
                                     </ul>}
                                 />
                         <Widget
                             title="My GitHub Activity"
-                            embedlink={<a href='https://github.com/JakeLDev' target={"_blank"}><img align="center" src="http://github-readme-streak-stats.herokuapp.com?user=JakeLDev&theme=material-palenight&date_format=j%20M%5B%20Y%5D" alt="GitHub Stats" width={400} style={{display: "block", margin:"10px auto"}}/></a>}
+                            embedlink={<a href='https://github.com/JakeLDev' target={"_blank"} rel={"noreferrer"}><img align="center" src="http://github-readme-streak-stats.herokuapp.com?user=JakeLDev&theme=material-palenight&date_format=j%20M%5B%20Y%5D" alt="GitHub Stats" style={{display: "block", width: "100%", margin:"10px auto"}}/></a>}
 
                             />
                     </div>
