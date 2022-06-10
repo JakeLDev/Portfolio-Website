@@ -3,7 +3,6 @@ import './App.css';
 import MyFooter from './Components/MyFooter';
 import ScrollButton from './Components/ScrollButton';
 import ParticlesCanvas from './Components/Particles';
-import Navbar from './Components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -29,7 +28,6 @@ function App() {
           <GlobalStyles />
             <img id='synthToggle' src={synthwave} alt="synthwave toggle" onClick={themeToggler} style={{'position' : 'fixed', "left": 10, "bottom": 0, "cursor": "pointer", "maxHeight": 50}}/>
             <ParticlesCanvas />
-            <Navbar />
 
             <Routes>
               <Route path="/" element={<Master />}></Route>
