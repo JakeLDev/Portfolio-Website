@@ -14,6 +14,9 @@ Build the website with `npm run build`.
 
 Deploy the website to github pages with `npm run deploy`.
 
+## Now with GitHub Actions
+
+Now pushing to main results in the site being built and deployed by GitHub Actions
 
 ## In Progress / TODO
 
