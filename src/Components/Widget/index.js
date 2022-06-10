@@ -27,6 +27,9 @@ const Widget = (children) => {
                 {children.desc4 &&
                     <p className="BlogPost-desc"> {children.desc4}</p>
                 }
+                {children.embedlink &&
+                    <div>{children.embedlink}</div>
+                }
                 {children.facebook &&
                     <a href={children.facebook}
                         target="_blank"

@@ -278,19 +278,6 @@ div.paragraph > p.content {
   height: auto;
 }
 
-.BlogPost {
-  padding: 15px;
-  display: inline-block;
-  width: 95%;
-  height: auto;
-  border-radius: 5px;
-  background-color: rgba(37, 36, 36, .8);
-  margin: 10px;
-}
-
-.blog-column {
-  width: 100%;
-}
 
 .Job-Project-title, .Job-Project-desc, .Job-Project-tech, .Job-Project-repo{
   padding-left: 30px;
@@ -344,6 +331,20 @@ hr.Section-separator{
   /* padding: 10px; */
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+.BlogPost {
+  padding: 15px;
+  display: inline-block;
+  min-width: 95%;
+  height: auto;
+  border-radius: 5px;
+  background-color: rgba(37, 36, 36, .8);
+  margin: 10px;
+}
+
+.blog-column {
+  width: 100%;
 }
 
 .BlogPost-image{
@@ -436,7 +437,7 @@ a.button:hover {
   /* grid-template-columns: 2fr 1fr; */
   grid-template-columns: 66% 33%;
 
-  grid-gap: 10px;
+  /* grid-gap: 10px; */
   margin: 10px;
   padding: 10px;
 
