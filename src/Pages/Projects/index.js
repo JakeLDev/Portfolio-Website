@@ -43,11 +43,13 @@ const Projects = () => {
                     </Fade>
                     <hr className="Sub-separator"></hr>
                     <Fade duration={1500} triggerOnce="true">
-                        <Project title="Another Markdown Editor (In Progress)"
-                            image={PICCOMING}
-                            desc="A simple desktop app to create, edit and organize markdown (.MD) files " 
-                            tools="Electron.js, Typescript, React.js, (backend TBD)"
-                            repolink="https://github.com/JakeLDev/another-markdown-editor" />
+                        <Project title="Twitter Hygiene Bot (In Progress)"
+                            // image={PICCOMING}
+                            desc="Twitter Bot that tweets at set intervals to give reminders on commonly forgotten hygiene procedures. Targeted at people new to living alone. For example: A Tweet every 3 months to remind you to change your toothbrush!" 
+                            tools="AWS Lambda, AWS EventBridge, Twitter API, Python"
+                            repolink="https://github.com/JakeLDev/Twitter-Hygiene-Bot" 
+                            demolink="https://twitter.com/HygieneBot"
+                            />
                     </Fade>
                 </div>
             </div>
