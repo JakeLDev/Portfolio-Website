@@ -55,6 +55,10 @@ const AboutMe = () => {
               <p>React</p>
             </li>
             <li className="skill">
+              <span class="iconify" data-icon="logos:aws-lambda" data-width="60" data-height="60"></span>
+              <p>AWS Lambda</p>
+            </li>
+            <li className="skill">
               <span class="iconify" data-icon="logos:vue" data-width="60" data-height="60"></span>
               <p>Vue.js</p>
             </li>
