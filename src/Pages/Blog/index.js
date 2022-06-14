@@ -15,6 +15,11 @@ const Blog = () => {
                 <div className="widget-container">
                     <div className="blog-column">
                         <BlogPost
+                            title="Began work on my Hygiene Twitter Bot"
+                            date="14th of June 2022"
+                            desc1="Started to learn how to use Twitter API's and possibly some AWS serverless functions to create a bot that tweets reminders about common hygiene processes at set intervals, for example, changing your bedsheets every two weeks, or changing your toothbrush every 3 months. It's target audience is people who are living alone for the first time and can be forgetful. The hope is that people will turn on tweet notifications for the bot and will be kept up to date on when to perform hygienic practices."
+                            />
+                        <BlogPost
                             title="Finished my last university exam (hopefully)"
                             date="3rd of June 2022"
                             desc1="After trudging through a difficult project and a long week of hard studying, I've managed to complete my final exam for my degree (as long as I pass). I feel confident in my submission and am hoping to receive a high grade for the unit, following on from my 90% in the Mid-Semester Exam. Given that I pass, I will be attending my Graduation Ceremony at the end of July."
@@ -50,13 +55,13 @@ const Blog = () => {
                             desc1={<ul>
                                     <li>Markdown Editor</li>
                                     <li>Additions to this Website</li>
+                                    <li>Twitter Hygiene Bot</li>
                                 </ul>}
                             desc2=""
                             desc3="" />
                             <Widget
                                 title="Planned Future Projects"
                                 desc1={<ul>
-                                        <li>Twitter Hygiene Bot</li>
                                         <li>Large scale web application with friends</li>
                                         <li>Flight Price Tracker</li>
                                     </ul>}
