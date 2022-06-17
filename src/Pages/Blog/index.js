@@ -15,6 +15,11 @@ const Blog = () => {
                 <div className="widget-container">
                     <div className="blog-column">
                         <BlogPost
+                            title="Researching shifting this site from GitHub Pages to AWS"
+                            date="17th of June 2022"
+                            desc1="Started looking into moving the hosting of this site to improve performance of the animated background. Sometimes I experience lag and low framerate with the animation, and I think this may be due to GitHub Pages' free hosting, I'm hoping an upgrade to AWS hosting would allow for better performance."
+                            />
+                        <BlogPost
                             title="Began work on my Hygiene Twitter Bot"
                             date="14th of June 2022"
                             desc1="Started to learn how to use Twitter's API and some AWS serverless functions to create a bot that tweets reminders about common hygiene processes at set intervals, for example, changing your bedsheets every two weeks, or changing your toothbrush every 3 months. It's target audience is people who are living alone for the first time and can be forgetful. The hope is that people will turn on tweet notifications for the bot and will be kept up to date on when to perform hygienic practices."
