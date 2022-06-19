@@ -52,6 +52,7 @@ const Blog = () => {
                                         <li>Kotlin</li>
                                         <li>AWS Deployment</li>
                                         <li>Common Web APIs (Twitter, Weather, etc)</li>
+                                        <li>Industry Standard Database Techniques</li>
                                     </ul>}
                             desc2=""
                             desc3="" />
@@ -59,7 +60,7 @@ const Blog = () => {
                             title="Projects In Progress"
                             desc1={<ul>
                                     <li>Twitter Hygiene Bot (AWS)</li>
-                                    <li>Additions to this Website</li>
+                                    <li>Additions to this website</li>
                                     <li>Markdown Editor (Electron.js)</li>
                                 </ul>}
                             desc2=""
