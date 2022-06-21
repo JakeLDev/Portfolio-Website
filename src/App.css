@@ -145,6 +145,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  font-size: 16px;
 }
 
 div.page {
@@ -339,6 +340,36 @@ hr.Section-separator{
   padding-bottom: 10px;
 }
 
+.ProjectThumbnail{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.ProjectThumbnail-header{
+  text-align: center;
+}
+
+.ProjectThumbnail-image{
+  /* float: left; */
+  display: inline-block;
+  /* margin-left: 0;
+  margin-right: auto; */
+  margin: auto;
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  object-fit: cover;
+  /* padding: 10px; */
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.Project-box{
+  display: flex;
+}
+
 .BlogPost {
   padding: 15px;
   display: inline-block;
@@ -441,6 +472,65 @@ a.button:hover {
   font-weight: bold;
 }
 
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.modalpopup{
+  background: none;
+  padding: 5px;
+  display: inline-block;
+  width: 95%;
+  /* width: auto; */
+  height: auto;
+  font-family: 'Inter', sans-serif;
+  color: rgb(226,226,226);
+  font-size: 16px;
+  text-align: left;
+  border: none;
+  margin: auto;
+}
+
+.modalpopup:hover{
+  background: rgba(54, 52, 52, 0.90);
+}
+
+.jakepopup-content{
+  background: #232425;
+  padding: 100px;
+}
+
+
 @media screen and (min-width: 900px){
   .widget-container {
     max-width: 100%;
@@ -490,7 +580,7 @@ a.button:hover {
 }
 
 @media screen and (max-width: 1100px) {
-  .Project-image, .Job-image, .Event-image, .BlogPost-image{
+  .Project-image, .ProjectThumbnail-image, .Job-image, .Event-image, .BlogPost-image{
     width: 100%;
     max-width: 100%;
   }
