@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.92e7cfdd.css",
-    "main.js": "/static/js/main.8e93a29d.js",
+    "main.css": "/static/css/main.2afbaee3.css",
+    "main.js": "/static/js/main.1b730553.js",
     "static/js/787.49138e18.chunk.js": "/static/js/787.49138e18.chunk.js",
     "static/media/Vintranet.png": "/static/media/Vintranet.c6e19b9470ad648671b3.png",
     "static/media/TradingTeamProjectStart.jpg": "/static/media/TradingTeamProjectStart.4e64a55e990d95bdc265.jpg",
@@ -9,6 +9,7 @@
     "static/media/JakeLyell.jpg": "/static/media/JakeLyell.f4e1abcf899c1cbb2cee.jpg",
     "static/media/IMCPythonWorkshop.jpg": "/static/media/IMCPythonWorkshop.9c228c0b2f2bdd3e17be.jpg",
     "static/media/MeanReversionProject.png": "/static/media/MeanReversionProject.0a9ec2b1768e02754fba.png",
+    "static/media/HygieneBot.png": "/static/media/HygieneBot.a06e12cfd1c7686dcc4f.png",
     "static/media/QFin-site2.png": "/static/media/QFin-site2.6099e4854901caee0c13.png",
     "static/media/FinalMeanReversionAlgorithm.png": "/static/media/FinalMeanReversionAlgorithm.42a5b59f17ab51c9e3b0.png",
     "static/media/WAPOL2.png": "/static/media/WAPOL2.4d0870bae011f66f0903.png",
@@ -20,12 +21,12 @@
     "static/media/Jake Lyell Computer Science Resume v4.pdf": "/static/media/Jake Lyell Computer Science Resume v4.55ff11f246d6baae230b.pdf",
     "static/media/Atlassian.png": "/static/media/Atlassian.e9c378c6eaaa1df45bb7.png",
     "index.html": "/index.html",
-    "main.92e7cfdd.css.map": "/static/css/main.92e7cfdd.css.map",
-    "main.8e93a29d.js.map": "/static/js/main.8e93a29d.js.map",
+    "main.2afbaee3.css.map": "/static/css/main.2afbaee3.css.map",
+    "main.1b730553.js.map": "/static/js/main.1b730553.js.map",
     "787.49138e18.chunk.js.map": "/static/js/787.49138e18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92e7cfdd.css",
-    "static/js/main.8e93a29d.js"
+    "static/css/main.2afbaee3.css",
+    "static/js/main.1b730553.js"
   ]
 }
