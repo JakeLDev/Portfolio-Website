@@ -18,26 +18,28 @@ const Projects = () => {
                 <h1 className="title">Projects</h1>
                 <h3 className="subheading" style={{ textAlign: "center" }}><a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer">GitHub</a></h3>
                 <div className="paragraph">
-                    <p className="content" style={{ textAlign: "center" }}>Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work. (More Projects are featured below in the "Work Experience" section)</p>
+                    <p className="content" style={{ textAlign: "center" }}>Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work. Click the projects for more info! (More Projects are featured below in the "Work Experience" section)</p>
                 </div>
                 <div className="Project-container">
-                <Popup
-                    contentStyle={{"background": "rgba(54, 52, 52, 0.97)"}}
-                    trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Crime Data Visualisation for the WA Police Force"
-                                        image={WAPOL}
-                                        // desc="Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
-                                        // tools="Python, Pandas, PyQt5, GIS, SciPy"
-                                        // repo="Private as requested by WAPOL" 
-                                        /></button>)}
-                    modal
-                    nested
-                >
-                    {close => (<Project title="Crime Data Visualisation for the WA Police Force"
-                                        image={WAPOL}
-                                        desc="Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
-                                        tools="Python, Pandas, PyQt5, GIS, SciPy"
-                                        repo="Private as requested by WAPOL" />)}
-                </Popup>
+                    <div className='Project-box'>
+                        <Popup
+                            contentStyle={{"background": "rgba(54, 52, 52, 0.97)"}}
+                            trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Crime Data Visualisation for the WA Police Force"
+                                                image={WAPOL}
+                                                // desc="Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
+                                                // tools="Python, Pandas, PyQt5, GIS, SciPy"
+                                                // repo="Private as requested by WAPOL" 
+                                                /></button>)}
+                            modal
+                            nested
+                        >
+                            {close => (<Project title="Crime Data Visualisation for the WA Police Force"
+                                                image={WAPOL}
+                                                desc="Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
+                                                tools="Python, Pandas, PyQt5, GIS, SciPy"
+                                                repo="Private as requested by WAPOL" />)}
+                        </Popup>
+                    </div>
                     <hr className="Sub-separator"></hr>
                     <Fade duration={1500} triggerOnce="true">
                         <Project title="Crime Data Visualisation for the WA Police Force"

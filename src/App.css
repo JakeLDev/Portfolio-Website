@@ -344,6 +344,7 @@ hr.Section-separator{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 10px;
 }
 
 .ProjectThumbnail-header{
@@ -356,13 +357,17 @@ hr.Section-separator{
   /* margin-left: 0;
   margin-right: auto; */
   margin: auto;
-  width: 50%;
+  width: auto;
   height: auto;
   max-width: 500px;
   object-fit: cover;
   /* padding: 10px; */
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+.Project-box{
+  display: flex;
 }
 
 .BlogPost {
@@ -506,12 +511,14 @@ a.button:hover {
   padding: 5px;
   display: inline-block;
   width: 95%;
+  /* width: auto; */
   height: auto;
   font-family: 'Inter', sans-serif;
   color: rgb(226,226,226);
   font-size: 16px;
   text-align: left;
   border: none;
+  margin: auto;
 }
 
 .modalpopup:hover{
