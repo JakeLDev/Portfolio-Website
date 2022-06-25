@@ -24,7 +24,7 @@ const Projects = () => {
                     <Fade duration={1500} triggerOnce="true">
                         <div className='Project-box'>
                             <Popup
-                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)"}}
+                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh", "overflowY": "auto", "overflowX": "hidden"}}
                                 trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Crime Data Visualisation for the WA Police Force"
                                                     image={WAPOL}
                                                     // desc="Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
@@ -34,11 +34,13 @@ const Projects = () => {
                                 modal
                                 nested
                             >
-                                {close => (<Project title="Crime Data Visualisation for the WA Police Force"
-                                                    image={WAPOL}
-                                                    desc="Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
-                                                    tools="Python, Pandas, PyQt5, GIS, SciPy"
-                                                    repo="Private as requested by WAPOL" />)}
+                                {close => (
+                                    <Project title="Crime Data Visualisation for the WA Police Force"
+                                        image={WAPOL}
+                                        desc="Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
+                                        tools="Python, Pandas, PyQt5, GIS, SciPy"
+                                        repo="Private as requested by WAPOL" />
+                                )}
                             </Popup>
                         </div>
                     </Fade>
@@ -46,7 +48,7 @@ const Projects = () => {
                     <Fade duration={1500} triggerOnce="true">
                         <div className='Project-box'>
                             <Popup
-                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)"}}
+                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh", "overflowY": "auto", "overflowX": "hidden"}}
                                 trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Momentum Trading Algorithm"
                                                     image={MOMENTUM}
                                                     /></button>)}
@@ -65,7 +67,7 @@ const Projects = () => {
                     <Fade duration={1500} triggerOnce="true">
                         <div className='Project-box'>
                             <Popup
-                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)"}}
+                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh"}}
                                 trigger={open => (<button className='modalpopup'><ProjectThumbnail title="“The Resistance” Card Game Artificial Intelligence Agent"
                                                     image={RESISTANCE}
                                                     /></button>)}
@@ -84,7 +86,7 @@ const Projects = () => {
                     <Fade duration={1500} triggerOnce="true">
                         <div className='Project-box'>
                             <Popup
-                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)"}}
+                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh"}}
                                 trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Twitter Hygiene Bot"
                                                     image={HYGIENEBOT}
                                                     /></button>)}

@@ -513,6 +513,7 @@ a.button:hover {
   width: 95%;
   /* width: auto; */
   height: auto;
+  /* max-height: 100vh; */
   font-family: 'Inter', sans-serif;
   color: rgb(226,226,226);
   font-size: 16px;
@@ -528,6 +529,12 @@ a.button:hover {
 .jakepopup-content{
   background: #232425;
   padding: 100px;
+}
+
+@media screen and (max-width: 800px){
+  .modalpopup{
+    width: 100%;
+  }
 }
 
 
