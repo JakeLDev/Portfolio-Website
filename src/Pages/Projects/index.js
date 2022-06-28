@@ -63,7 +63,6 @@ const Projects = () => {
                             </Popup>
                         </div>
                     </Fade>
-                {/* <hr className="Sub-separator"></hr> */}
                     <Fade duration={1500} triggerOnce="true">
                         <div className='Project-box'>
                             <Popup
@@ -82,7 +81,6 @@ const Projects = () => {
                             </Popup>
                         </div>
                     </Fade>
-                {/* <hr className="Sub-separator"></hr> */}
                     <Fade duration={1500} triggerOnce="true">
                         <div className='Project-box'>
                             <Popup
