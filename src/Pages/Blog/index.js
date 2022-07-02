@@ -19,6 +19,11 @@ const Blog = () => {
                             desc1="This week I began working on the UWA Coders for Causes Club's Winter Project. The team I'm on is creating a mobile-first web application called POOPs (Pets Of Older Persons), an application similar to Uber for elderly people to find volunteers nearby to walk and/or feed their pets! The tech stack includes React, Next.js, Firebase and Tailwind CSS."
                             date="2nd of July 2022" />
                         <BlogPost
+                            title="Researching shifting this site from GitHub Pages to AWS"
+                            date="17th of June 2022"
+                            desc1="Started looking into moving the hosting of this site to improve performance of the animated background. Sometimes I experience lag and low framerate with the animation, and I think this may be due to GitHub Pages' free hosting, I'm hoping an upgrade to AWS hosting would allow for better performance."
+                            />
+                        <BlogPost
                             title="Began work on my Hygiene Twitter Bot"
                             date="14th of June 2022"
                             desc1="Started to learn how to use Twitter's API and some AWS serverless functions to create a bot that tweets reminders about common hygiene processes at set intervals, for example, changing your bedsheets every two weeks, or changing your toothbrush every 3 months. It's target audience is people who are living alone for the first time and can be forgetful. The hope is that people will turn on tweet notifications for the bot and will be kept up to date on when to perform hygienic practices."
@@ -51,6 +56,7 @@ const Blog = () => {
                                         <li>Kotlin</li>
                                         <li>AWS Deployment</li>
                                         <li>Common Web APIs (Twitter, Weather, etc)</li>
+                                        <li>Industry Standard Database Techniques</li>
                                     </ul>}
                             desc2=""
                             desc3="" />
@@ -58,7 +64,7 @@ const Blog = () => {
                             title="Projects In Progress"
                             desc1={<ul>
                                     <li>Twitter Hygiene Bot (AWS)</li>
-                                    <li>Additions to this Website</li>
+                                    <li>Additions to this website</li>
                                     <li>Markdown Editor (Electron.js)</li>
                                 </ul>}
                             desc2=""
