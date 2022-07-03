@@ -50,8 +50,8 @@ const Blog = () => {
                                         <li>Back-end Web Development</li>
                                         <li>Java Web Frameworks</li>
                                         <li>Firebase</li>
-                                        <li>AWS Deployment</li>
                                         <li>Common Web APIs (Twitter, Weather, etc)</li>
+                                        <li>AWS Deployment</li>
                                         <li>Industry Standard Database Techniques</li>
                                     </ul>}
                             desc2=""
