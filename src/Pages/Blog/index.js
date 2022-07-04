@@ -61,7 +61,7 @@ const Blog = () => {
                             desc1={<ul>
                                     <li>Coders For Causes Winter Project</li>
                                     <li>Additions to this website</li>
-                                    <li>Twitter Hygiene Bot (AWS)</li>
+                                    <li>Twitter Hygiene Bot (AWS Serverless Functions)</li>
                                     <li>Markdown Editor (Electron.js)</li>
                                 </ul>}
                             desc2=""
