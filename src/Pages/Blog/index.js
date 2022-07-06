@@ -15,6 +15,10 @@ const Blog = () => {
                 <div className="widget-container">
                     <div className="blog-column">
                         <BlogPost
+                            title="Coders For Causes Winter Project"
+                            desc1="This week I began working on the UWA Coders for Causes Club's Winter Project. The team I'm on is creating a mobile-first web application called POOPs (Pets Of Older Persons), an application similar to Uber for elderly people to find volunteers nearby to walk and/or feed their pets! The tech stack includes React, Next.js, Firebase and Tailwind CSS."
+                            date="2nd of July 2022" />
+                        <BlogPost
                             title="Researching shifting this site from GitHub Pages to AWS"
                             date="17th of June 2022"
                             desc1="Started looking into moving the hosting of this site to improve performance of the animated background. Sometimes I experience lag and low framerate with the animation, and I think this may be due to GitHub Pages' free hosting, I'm hoping an upgrade to AWS hosting would allow for better performance."
