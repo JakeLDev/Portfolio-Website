@@ -53,9 +53,9 @@ const Blog = () => {
                             desc1=  {<ul>
                                         <li>Back-end Web Development</li>
                                         <li>Java Web Frameworks</li>
-                                        <li>Kotlin</li>
-                                        <li>AWS Deployment</li>
+                                        <li>Firebase</li>
                                         <li>Common Web APIs (Twitter, Weather, etc)</li>
+                                        <li>AWS Deployment</li>
                                         <li>Industry Standard Database Techniques</li>
                                     </ul>}
                             desc2=""
@@ -63,8 +63,9 @@ const Blog = () => {
                         <Widget
                             title="Projects In Progress"
                             desc1={<ul>
-                                    <li>Twitter Hygiene Bot (AWS)</li>
+                                    <li>Coders For Causes Winter Project</li>
                                     <li>Additions to this website</li>
+                                    <li>Twitter Hygiene Bot (AWS Serverless Functions)</li>
                                     <li>Markdown Editor (Electron.js)</li>
                                 </ul>}
                             desc2=""
