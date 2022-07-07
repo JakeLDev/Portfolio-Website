@@ -15,6 +15,10 @@ const Blog = () => {
                 <div className="widget-container">
                     <div className="blog-column">
                         <BlogPost
+                            title="Firebase Authentication"
+                            desc1="I've started learning and implementing Firebase Authentication for the Coders For Causes Project. Working on allowing users to log into the application using Google and Facebook accounts. Learning how to protect routes with authentication in the Next.js router is turning out to be a bit harder than when using react-router."
+                            date="5th of July 2022" />
+                        <BlogPost
                             title="Coders For Causes Winter Project"
                             desc1="This week I began working on the UWA Coders for Causes Club's Winter Project. The team I'm on is creating a mobile-first web application called POOPs (Pets Of Older Persons), an application similar to Uber for elderly people to find volunteers nearby to walk and/or feed their pets! The tech stack includes React, Next.js, Firebase and Tailwind CSS."
                             date="2nd of July 2022" />
