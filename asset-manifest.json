@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6f13820f.css",
-    "main.js": "/static/js/main.883df50e.js",
+    "main.js": "/static/js/main.0950662e.js",
     "static/js/787.49138e18.chunk.js": "/static/js/787.49138e18.chunk.js",
     "static/media/Vintranet.png": "/static/media/Vintranet.c6e19b9470ad648671b3.png",
     "static/media/TradingTeamProjectStart.jpg": "/static/media/TradingTeamProjectStart.4e64a55e990d95bdc265.jpg",
@@ -22,11 +22,11 @@
     "static/media/Atlassian.png": "/static/media/Atlassian.e9c378c6eaaa1df45bb7.png",
     "index.html": "/index.html",
     "main.6f13820f.css.map": "/static/css/main.6f13820f.css.map",
-    "main.883df50e.js.map": "/static/js/main.883df50e.js.map",
+    "main.0950662e.js.map": "/static/js/main.0950662e.js.map",
     "787.49138e18.chunk.js.map": "/static/js/787.49138e18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f13820f.css",
-    "static/js/main.883df50e.js"
+    "static/js/main.0950662e.js"
   ]
 }
