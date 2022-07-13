@@ -76,6 +76,7 @@ const Blog = () => {
                             <Widget
                                 title="Planned Future Projects"
                                 desc1={<ul>
+                                        <li>Back-end Web Development Project</li>
                                         <li>Large scale web application with friends</li>
                                         <li>Flight Price Tracker</li>
                                     </ul>}
