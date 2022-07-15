@@ -56,7 +56,6 @@ const Blog = () => {
                             title="Currently Learning"
                             desc1=  {<ul>
                                         <li>Back-end Web Development</li>
-                                        <li>Java Web Frameworks</li>
                                         <li>Firebase</li>
                                         <li>Common Web APIs (Twitter, Weather, etc)</li>
                                         <li>AWS Deployment</li>
@@ -77,6 +76,7 @@ const Blog = () => {
                             <Widget
                                 title="Planned Future Projects"
                                 desc1={<ul>
+                                        <li>Back-end Web Development Project</li>
                                         <li>Large scale web application with friends</li>
                                         <li>Flight Price Tracker</li>
                                     </ul>}
