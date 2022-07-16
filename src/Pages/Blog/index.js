@@ -57,7 +57,6 @@ const Blog = () => {
                             desc1=  {<ul>
                                         <li>Back-end Web Development</li>
                                         <li>Firebase</li>
-                                        <li>Common Web APIs (Twitter, Weather, etc)</li>
                                         <li>AWS Deployment</li>
                                         <li>Industry Standard Database Techniques</li>
                                     </ul>}
