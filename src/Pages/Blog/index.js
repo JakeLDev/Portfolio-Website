@@ -73,6 +73,14 @@ const Blog = () => {
                             desc2=""
                             desc3="" />
                             <Widget
+                                title="Books I'm Reading"
+                                desc1={<ul>
+                                        <li>Node.js Web Development - David Herron</li>
+                                        <li>Neuromancer - William Gibson</li>
+                                        <li>Spring Boot Up & Running - Mark Heckler</li>
+                                    </ul>}
+                                />
+                            <Widget
                                 title="Planned Future Projects"
                                 desc1={<ul>
                                         <li>Back-end Web Development Project</li>
