@@ -8,6 +8,7 @@ import QFinSite from '../../Components/assets/projects/QFin-site2.png';
 import MeanReversionProject from '../../Components/assets/projects/MeanReversionProject.png';
 import CFC from '../../Components/assets/CFC.png';
 import WAIS from '../../Components/assets/projects/WAIS.png';
+import POOPS from '../../Components/assets/projects/POOPS login.png';
 import { Fade } from "react-awesome-reveal";
 
 const WorkExperience = () => {
@@ -80,6 +81,15 @@ const WorkExperience = () => {
                             <p className="Job-Project-desc">Developed a Web Application for WAIS to help visualise the performance of pole vaulters in training. We incorporated computer vision software and user input to allow coaches to best train their athletes. Worked in a large team of volunteers to develop the full stack of this application.</p>
                             <img className="Job-image" src={WAIS} alt="WAIS" />
                             <p className="Job-Project-tech"> <b>Technologies: </b>Vue.js, Django, HTML, CSS, JavaScript, Docker, PostgreSQL</p>
+
+                            <hr className="Sub-separator"></hr>
+
+
+                            <h3 className='Job-Project-title'>Mobile Web Application for Pets of Older Persons</h3>
+                            <p className="Job-Project-desc">Developing a mobile-first web application a volunteer pet walking/caring app called POOPS (Pets of Older Persons). Developed in a team of volunteers using Firebase, React and Typescript</p>
+                            <img className="Job-image" src={POOPS} alt="POOPS" />
+                            <p className="Job-Project-tech"> <b>Technologies: </b>React.js, Firebase + Firestore, HTML, CSS, TypeScript</p>
+                            
                             <br></br>
                         </div>
                     </Fade>
