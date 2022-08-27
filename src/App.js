@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Blog from './Pages/Blog';
 import Master from './Pages/Master';
+import Photos from './Pages/Photos';
 
 import { ThemeProvider } from "styled-components"
 import {darkTheme, synthTheme, GlobalStyles} from "./themes.js"
@@ -32,6 +33,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Master />}></Route>
               <Route path="/Blog" element={<Blog />}></Route>
+              <Route path="/Photos" element={<Photos />}></Route>
             </Routes>
 
             <ScrollButton />
