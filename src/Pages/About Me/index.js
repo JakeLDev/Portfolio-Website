@@ -12,18 +12,17 @@ const AboutMe = () => {
         </div>
         <h1 className="title">About me</h1>
         <div className="paragraph">
-          <p className="content" style={{ textAlign: "center" }}>My name is Jake Lyell, I'm a 20 year old Computer Science and Data Science student pursuing a career in Software Engineering. Recently accepted an offer for a 2023 Graduate Position at Atlassian!</p>
+          <p className="content" style={{ textAlign: "center" }}>My name is Jake Lyell, I'm a 21 year old Computer Science and Data Science graduate pursuing a career in Software Engineering. I've recently accepted an offer for a 2023 Graduate Position at Atlassian!</p>
         </div>
         <h2 className="subheading">Education</h2>
         <div className="paragraph">
-          <p className="content"> I'm currently studying a Bachelor of Science with a Double Major in Computer Science and Data Science at the University of Western Australia. Graduating in June 2022.
+          <p className="content"> I've graduated from the University of Western Australia with a Bachelor of Science with a Double Major in Computer Science and Data Science. I graduated in June 2022.
             After graduation, I will be spending some time self-teaching and travelling before starting work at Atlassian in Jan 2023.<br></br>
-            I graduated High School in 2018 with an ATAR of 94.25.
           </p>
         </div>
         <h2 className="subheading">Hobbies</h2>
         <div className="paragraph">
-          <p className="content"> I enjoy playing video games, building computers and completing coding projects either for my own amusement or for one of the university clubs that I am involved in.
+          <p className="content"> I enjoy playing video games, building computers and completing coding projects for my own amusement.
             I have also recently started building and programming keyboards, starting with the relatively simple GMMK Pro and moving onto soldering a Dumbpad (12 key macropad with rotary encoder).
             I have also built and programmed a Sofle v2 split ortholinear keyboard.</p>
         </div>
@@ -51,6 +50,10 @@ const AboutMe = () => {
               <p>CSS</p>
             </li>
             <li className="skill">
+              <span class="iconify" data-icon="logos:java" data-width="60" data-height="60"></span>
+              <p>Java</p>
+            </li>
+            <li className="skill">
               <span class="iconify" data-icon="logos:react" data-width="60" data-height="60"></span>
               <p>React</p>
             </li>
@@ -74,14 +77,10 @@ const AboutMe = () => {
               <span class="iconify" data-icon="logos:mysql" data-width="60" data-height="60"></span>
               <p>MySQL</p>
             </li>
-            <li className="skill">
-              <span class="iconify" data-icon="logos:java" data-width="60" data-height="60"></span>
-              <p>Java</p>
-            </li>
-            <li className="skill">
+            {/* <li className="skill">
               <span class="iconify" data-icon="logos:c-plusplus" data-width="60" data-height="60"></span>
               <p>C++</p>
-            </li>
+            </li> */}
             <li className="skill">
               <span class="iconify" data-icon="logos:c" data-width="60" data-height="60"></span>
               <p>C</p>
