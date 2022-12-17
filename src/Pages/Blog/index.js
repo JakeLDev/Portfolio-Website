@@ -14,10 +14,10 @@ const Blog = () => {
                 <h1 className="title">What I've been up to recently</h1>
                 <div className="widget-container">
                     <div className="blog-column">
-                        <BlogPost
+                        {/* <BlogPost
                             title="Created a Casual Pay Calculator"
                             desc1="I Developed a website to help estimate the paycheck received by a Casual employee during a pay period. A user can input their hours worked, or allow the site to read their Google Calendar, and the site will estimate what your expected pay will be."
-                            date="10th of October 2022" />
+                            date="10th of October 2022" /> */}
                         <BlogPost
                             title="Firebase Authentication"
                             desc1="I've started learning and implementing Firebase Authentication for the Coders For Causes Project. Working on allowing users to log into the application using Google and Facebook accounts. Learning how to protect routes with authentication in the Next.js router is turning out to be a bit harder than when using react-router."
