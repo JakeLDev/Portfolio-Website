@@ -44,6 +44,26 @@ const Projects = () => {
                             </Popup>
                         </div>
                     </Fade>
+                    {/* <Fade duration={1500} triggerOnce="true">
+                        <div className='Project-box'>
+                            <Popup
+                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh", "overflowY": "auto", "overflowX": "hidden"}}
+                                trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Casual Paycheck Calculator"
+                                                    image={PICCOMING}/>
+                                                    </button>)}
+                                modal
+                                nested
+                            >
+                                {close => (
+                                    <Project title="Casual Paycheck Calculator"
+                                        image={PICCOMING}
+                                        desc="TODO"
+                                        tools="React, TypeScript, Google Calendar API"
+                                        repo="TODO" />
+                                )}
+                            </Popup>
+                        </div>
+                    </Fade> */}
                 {/* <hr className="Sub-separator"></hr> */}
                     <Fade duration={1500} triggerOnce="true">
                         <div className='Project-box'>
