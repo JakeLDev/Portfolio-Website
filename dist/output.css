@@ -930,6 +930,16 @@ video {
   font-weight: 600;
 }
 
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.decoration-solid {
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+}
+
 body {
   margin: 0;
   font-family: 'Inter',-apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
