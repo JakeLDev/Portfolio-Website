@@ -14,17 +14,15 @@ import 'reactjs-popup/dist/index.css';
 const Projects = () => {
     return (
         <>
-            <div className="page" id='Projects'>
-                <h1 className="title">Projects</h1>
-                <h3 className="subheading" style={{ textAlign: "center" }}><a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer">GitHub</a></h3>
-                <div className="paragraph">
-                    <p className="content" style={{ textAlign: "center" }}>Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work. Click the projects for more info! (More Projects are featured below in the "Work Experience" section)</p>
-                </div>
-                <div className="Project-container">
+            <div className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/70" id='Projects Page'>
+                <h1 className="w-full font-semibold m-0 text-center content-center text-3xl">Projects</h1>
+                <h3 className="w-full font-semibold mt-4 text-xl" style={{ textAlign: "center" }}><a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer">GitHub</a></h3>
+                <p className="mx-20 p-2 text-center">Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work. Click the projects for more info! (More Projects are featured below in the "Work Experience" section)</p>
+                <div id="Project-container" className="block">
                     <Fade duration={1500} triggerOnce="true">
-                        <div className='Project-box'>
+                        <div className='flex' id="Project-box">
                             <Popup
-                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh", "overflowY": "auto", "overflowX": "hidden"}}
+                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "auto", "maxWidth": "1200px", "maxHeight": "90vh", "overflowY": "auto", "overflowX": "hidden"}}
                                 trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Crime Data Visualisation for the WA Police Force"
                                                     image={WAPOL}
                                                     // desc="Created an interactive desktop application for the Data Science and Analytics Division of the WA Police Force to visualize crime data trends on an interactive heat map of Western Australia. Developed in a team of six over the course of 3 months. Our implementation involved the rapid analysis of a csv file containing 300,000 lines of time series data before displaying it within an interactive html page displayed locally. I Performed a team leadership role, including ensuring that deliverables were completed on time, and managing my team’s resources and task allocation."
@@ -66,9 +64,9 @@ const Projects = () => {
                     </Fade> */}
                 {/* <hr className="Sub-separator"></hr> */}
                     <Fade duration={1500} triggerOnce="true">
-                        <div className='Project-box'>
+                        <div className='flex' id="Project-box">
                             <Popup
-                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh", "overflowY": "auto", "overflowX": "hidden"}}
+                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "auto", "maxWidth": "1200px", "maxHeight": "90vh", "overflowY": "auto", "overflowX": "hidden"}}
                                 trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Momentum Trading Algorithm"
                                                     image={MOMENTUM}
                                                     /></button>)}
@@ -84,9 +82,9 @@ const Projects = () => {
                         </div>
                     </Fade>
                     <Fade duration={1500} triggerOnce="true">
-                        <div className='Project-box'>
+                        <div className='flex' id="Project-box">
                             <Popup
-                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh"}}
+                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "auto", "maxWidth": "1200px", "maxHeight": "90vh"}}
                                 trigger={open => (<button className='modalpopup'><ProjectThumbnail title="“The Resistance” Card Game Artificial Intelligence Agent"
                                                     image={RESISTANCE}
                                                     /></button>)}
@@ -102,9 +100,9 @@ const Projects = () => {
                         </div>
                     </Fade>
                     <Fade duration={1500} triggerOnce="true">
-                        <div className='Project-box'>
+                        <div className='flex' id="Project-box">
                             <Popup
-                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh"}}
+                                contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "auto", "maxWidth": "1200px", "maxHeight": "90vh"}}
                                 trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Twitter Hygiene Bot"
                                                     image={HYGIENEBOT}
                                                     /></button>)}

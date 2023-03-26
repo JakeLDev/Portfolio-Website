@@ -12,21 +12,15 @@ import Master from './Pages/Master';
 import { ThemeProvider } from "styled-components"
 import {darkTheme, synthTheme, GlobalStyles} from "./themes.js"
 
-import synthwave from './Components/assets/vaporwave.png'
-
 function App() {
 
   const [theme, setTheme] = useState('dark');
 
-  const themeToggler = () => {
-    theme === 'dark' ? setTheme('synth') : setTheme('dark');
-  }
 
   return (
     <>
         <ThemeProvider theme={theme === "dark" ? darkTheme : synthTheme}>
           <GlobalStyles />
-            <img id='synthToggle' src={synthwave} alt="synthwave toggle" onClick={themeToggler} style={{'position' : 'fixed', "left": 10, "bottom": 0, "cursor": "pointer", "maxHeight": 50}}/>
             <ParticlesCanvas />
 
             <Routes>
