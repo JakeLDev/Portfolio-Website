@@ -53,18 +53,14 @@ const WorkExperience = () => {
 
                     {/* TODO Transfer this to Job type */}
                     <Fade duration={1500} triggerOnce="true">
-                        <div className="Job">
-                            <img className="Job-logo" src={CFC} alt="CFC Logo" width="100px" height="100px" />
-                            <h2 className="Job-title">Coders for Causes UWA | Volunteer Software Engineer</h2>
-                            <h3 className="Job-subtitle">November 2021 - March 2022</h3>
-                            <p className="Job-desc"> <b>Role: </b>Volunteer developer for the Coders For Causes club at UWA. A club that provides volunteer software engineering teams for non-profit companies and charities. I participated in one of the summer projects for the Western Australian Institute of Sport by creating a web application for the track and field division.</p>
-                            <h3 className="Job-desc"> <b>Projects: </b></h3>
-                            <h3 className='Job-Project-title'>Web Application for Western Australian Institute of Sport</h3>
-                            <p className="Job-Project-desc">Developed a Web Application for WAIS to help visualise the performance of pole vaulters in training. We incorporated computer vision software and user input to allow coaches to best train their athletes. Worked in a large team of volunteers to develop the full stack of this application.</p>
-                            <img className="Job-image" src={WAIS} alt="WAIS" />
-                            <p className="Job-Project-tech"> <b>Technologies: </b>Vue.js, Django, HTML, CSS, JavaScript, Docker, PostgreSQL</p>
-                            <br></br>
-                        </div>
+                        <Job logo={CFC}
+                            title="Coders for Causes UWA | Volunteer Software Engineer"
+                            daterange="November 2021 - March 2022"
+                            desc="Volunteer developer for the Coders For Causes club at UWA. A club that provides volunteer software engineering teams for non-profit companies and charities. I participated in one of the summer projects for the Western Australian Institute of Sport by creating a web application for the track and field division."
+                                projecttitle1="Web Application for Western Australian Institute of Sport"
+                                projectdesc1="Developed a Web Application for WAIS to help visualise the performance of pole vaulters in training. We incorporated computer vision software and user input to allow coaches to best train their athletes. Worked in a large team of volunteers to develop the full stack of this application."
+                                projectimage1={WAIS}
+                                projecttech1="Vue.js, Django, HTML, CSS, JavaScript, Docker, PostgreSQL"/>
                     </Fade>
                 </div>
             </div>

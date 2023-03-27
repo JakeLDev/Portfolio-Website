@@ -8,7 +8,7 @@ const JobProject = (children) => {
                     <h2 id="JobProject-title" className="mt-0 pb-1 font-semibold text-xl">{children.title}</h2>
                 }
                 {children.desc &&
-                    <p id="JobProject-desc" className="py-2"> <b>Technologies</b>: {children.desc}</p>
+                    <p id="JobProject-desc" className="py-2"> <b></b>{children.desc}</p>
                 }
                 {children.image &&
                     <img id="JobProject-image" className='clear-both block m-auto pt-2 pr-2 w-3/4' src={children.image} alt={children.title} width="100px" height="100px"/>

@@ -12,11 +12,12 @@ const Job = (children) => {
                     <h2 id="Job-title" className="mt-0 pb-1 font-semibold text-xl">{children.title}</h2>
                 }
                 {children.daterange &&
-                    <p id="Job-daterange" className="py-2"> <b>Description</b>: {children.daterange}</p>
+                    <p id="Job-daterange" className="py-2"> <b></b>{children.daterange}</p>
                 }
                 {children.desc &&
-                    <p id="Job-desc" className="py-2"> <b>Technologies</b>: {children.desc}</p>
+                    <p id="Job-desc" className="py-2"> <b>Role: </b>{children.desc}</p>
                 }
+                <p id="Job-projects-title" className="py-2 text-xl"> <b>Projects:</b></p>
                 <div id='Job-projects' className="block pl-8">
                     {children.projecttitle1 &&
                         <JobProject title={children.projecttitle1} desc={children.projectdesc1} image={children.projectimage1} repo={children.projectrepo1} repolink={children.projectrepolink1} tech={children.projecttech1}/>
