@@ -6,15 +6,15 @@ import { Fade } from "react-awesome-reveal";
 const AboutMe = () => {
   return (
     <>
-      <div id='About Me Page' className="justify-center h-auto w-9/12 m-auto my-4 rounded max-w-7xl bg-neutral-900/70">
+      <div id='About Me Page' className="justify-center h-auto w-9/12 m-auto my-4 rounded max-w-7xl bg-neutral-900/30">
         <div id="portrait-container" className="flex flex-row justify-center items-center m-auto mt-2 mb-2">
           <img id="portrait" className="object-cover p-2 max-w-xs" src={Jake} alt="Portrait of Jake"></img>
         </div>
         <h1 id="About Me Title" className="w-full font-semibold m-0 text-center content-center text-3xl">About me</h1>
-          <p className="m-0 p-2 text-center">My name is Jake Lyell, I'm a 21 year old Computer Science and Data Science graduate pursuing a career in Software Engineering. I've recently accepted an offer for a 2023 Graduate Position at Atlassian!</p>
+          <p className="m-0 p-2 text-center mx-auto max-w-xl">My name is Jake Lyell, I'm a 21 year old Software Engineer, currently working at Atlassian as a Full Stack Engineer on the Confluence Data Center platform</p>
         <h2 className="w-full font-semibold m-0 text-xl px-2">Education</h2>
           <p className="m-0 p-2"> I've graduated from the University of Western Australia with a Bachelor of Science with a Double Major in Computer Science and Data Science. I graduated in June 2022.
-            After graduation, I will be spending some time self-teaching and travelling before starting work at Atlassian in Jan 2023.<br></br>
+            After graduation, I spent some time self-teaching and travelling around Korea and Japan with my friends before starting work at Atlassian in Jan 2023.<br></br>
           </p>
         <h2 className="w-full font-semibold m-0 text-xl px-2">Hobbies</h2>
           <p className="m-0 p-2"> I enjoy playing video games, building computers and completing coding projects for my own amusement.

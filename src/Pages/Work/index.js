@@ -14,7 +14,7 @@ import Job from '../../Components/Job/Job';
 const WorkExperience = () => {
     return (
         <>
-            <div id='Work Experience Page' className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/70" >
+            <div id='Work Experience Page' className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/30" >
                 <h1 id="Jobs Title" className="w-full font-semibold m-0 text-center content-center mb-3 text-3xl">Work Experience and Roles</h1>
 
                 <div id="Jobs" className="block p-2">
