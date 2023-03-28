@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 const AboutMe = () => {
   return (
     <>
-      <div id='About Me Page' className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/70">
+      <div id='About Me Page' className="justify-center h-auto w-9/12 m-auto my-4 rounded max-w-7xl bg-neutral-900/70">
         <div id="portrait-container" className="flex flex-row justify-center items-center m-auto mt-2 mb-2">
           <img id="portrait" className="object-cover p-2 max-w-xs" src={Jake} alt="Portrait of Jake"></img>
         </div>

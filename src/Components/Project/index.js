@@ -8,7 +8,7 @@ const Project = (children) => {
                     <h2 id="Project-header" className="mt-0 pb-1 font-semibold text-xl">{children.title}</h2>
                 }
                 {children.image &&
-                    <img id="Project-image" className="float-left inline-block w-full h-auto object-cover pr-2 max-w-lg" src={children.image} alt={children.title} />
+                    <img id="Project-image" className="float-left inline-block w-auto h-auto object-cover pr-2 max-w-lg" src={children.image} alt={children.title} />
                 }
                 {children.desc &&
                     <p id="Project-desc" className="pl-8 pb-1"> <b>Description</b>: {children.desc}</p>

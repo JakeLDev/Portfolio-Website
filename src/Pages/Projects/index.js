@@ -17,7 +17,7 @@ const Projects = () => {
             <div className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/70" id='Projects Page'>
                 <h1 className="w-full font-semibold m-0 text-center content-center text-3xl">Projects</h1>
                 <h3 className="w-full font-semibold mt-4 text-xl" style={{ textAlign: "center" }}><a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer">GitHub</a></h3>
-                <p className="mx-20 p-2 text-center">Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work. Click the projects for more info! (More Projects are featured below in the "Work Experience" section)</p>
+                <p className="p-2 text-center">Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work. Click the projects for more info! (More Projects are featured below in the "Work Experience" section)</p>
                 <div id="Project-container" className="block">
                     <Fade duration={1500} triggerOnce="true">
                         <div className='flex' id="Project-box">

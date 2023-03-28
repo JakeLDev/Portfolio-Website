@@ -10,14 +10,14 @@ const Blog = () => {
     return (
         <>
             <BlogNavbar />
-            <div className="blog-page" id='Blog'>
-                <h1 className="title">What I've been up to recently</h1>
+            <div className="justify-center h-auto min-h-screen m-auto mb-4 mt-4 max-w-7xl w-[95%] rounded-xl" id='Blog'>
+                <h1 id="Blog Title" className='w-full m-0 text-center content-center font-semibold text-4xl py-4'>What I've been up to recently</h1>
                 <div className="widget-container">
-                    <div className="blog-column">
-                        {/* <BlogPost
+                    <div id="blog-column" className='w-full'>
+                        <BlogPost
                             title="Created a Casual Pay Calculator"
-                            desc1="I Developed a website to help estimate the paycheck received by a Casual employee during a pay period. A user can input their hours worked, or allow the site to read their Google Calendar, and the site will estimate what your expected pay will be."
-                            date="10th of October 2022" /> */}
+                            desc1="I developed a website to help estimate the paycheck received by a casual employee during a pay period. A user can input their hours worked, or allow the site to read their Google Calendar, and the site will estimate what your expected pay will be."
+                            date="10th of October 2022" />
                         <BlogPost
                             title="Firebase Authentication"
                             desc1="I've started learning and implementing Firebase Authentication for the Coders For Causes Project. Working on allowing users to log into the application using Google and Facebook accounts. Learning how to protect routes with authentication in the Next.js router is turning out to be a bit harder than when using react-router."
@@ -55,39 +55,32 @@ const Blog = () => {
                             desc2="The start time of this role would allow me to complete my degree in June of 2022, and have some time off to work on my own projects and learn new technologies. Hopefully (covid-permitting) I can also spend some time travelling before starting a full-time role."
                             />
                         </div>
-                    <div className="widget-column">
-                        <Widget
+                    <div id="widget-column">
+                        <h2 className='min-[900px]:hidden font-semibold text-3xl my-3 text-center'>Widgets</h2>
+                        <BlogPost
                             title="Currently Learning"
-                            desc1=  {<ul>
-                                        <li>Back-end Web Development</li>
-                                        <li>Java for Back-end development</li>
-                                        <li>AWS Deployment</li>
-                                        <li>Industry Standard Database Techniques</li>
+                            desc1=  {<ul className='list-disc px-4'>
+                                        <li>Code Testing Frameworks (JUnit, Mockito)</li>
+                                        <li>Introduction to Language Models</li>
                                     </ul>}
                             desc2=""
                             desc3="" />
-                        <Widget
+                        <BlogPost
                             title="Projects In Progress"
-                            desc1={<ul>
-                                    <li>Advent of Code 2022</li>
-                                    <li>Additions to this website</li>
-                                    <li>Twitter Hygiene Bot (AWS Serverless Functions)</li>
+                            desc1={<ul className='list-disc px-4'>
+                                    <li>Spotify Playlist Shuffler</li>
+                                    <li>Portfolio Site Refresh/Update</li>
                                 </ul>}
                             desc2=""
                             desc3="" />
-                            <Widget
+                            <BlogPost
                                 title="Planned Future Projects"
-                                desc1={<ul>
-                                        <li>Back-end Web Development Project</li>
-                                        <li>Large scale web application with friends</li>
+                                desc1={<ul className='list-disc px-4'>
+                                        <li>Gym Workout Tracker</li>
                                         <li>Flight Price Tracker</li>
+                                        <li>Grocery Price Tracker</li>
                                     </ul>}
                                 />
-                        <Widget
-                            title="My GitHub Activity"
-                            embedlink={<a href='https://github.com/JakeLDev' target={"_blank"} rel={"noreferrer"}><img align="center" src="http://github-readme-streak-stats.herokuapp.com?user=JakeLDev&theme=material-palenight&date_format=j%20M%5B%20Y%5D" alt="GitHub Stats" style={{display: "block", width: "100%", margin:"10px auto"}}/></a>}
-
-                            />
                     </div>
                 </div>
             </div>

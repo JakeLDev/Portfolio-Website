@@ -7,7 +7,7 @@ import {
 const Widget = (children) => {
     return (
         <>
-            <div className="BlogPost">  
+            <div id="BlogPost" className='p-4 inline-block h-auto rounded m-2 w-[95%] bg-neutral-800/80'>  
                 <div className='BlogPost-content'>
                     <h2 className="BlogPost-header">{children.title}</h2>
                     {children.date &&

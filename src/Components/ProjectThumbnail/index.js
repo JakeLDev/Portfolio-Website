@@ -8,7 +8,7 @@ const ProjectThumbnail = (children) => {
                     <h2 id="project-thumbnail-header" className="text-center pb-2">{children.title}</h2>
                 }
                 {children.image &&
-                    <img id="project-thumbnail-image" className="inline-block m-auto w-auto h-auto object-cover pr-2 pb-2 max-w-lg" src={children.image} alt={children.title} />
+                    <img id="project-thumbnail-image" className="float-left inline-block w-auto mx-auto h-auto object-cover pr-2 max-w-lg max-md:max-w-full" src={children.image} alt={children.title} />
                 }
             </div>
         </>

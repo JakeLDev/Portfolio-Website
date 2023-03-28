@@ -4,7 +4,7 @@ import JobProject from './JobProject';
 const Job = (children) => {
     return (
         <>
-            <div id="Job" className='p-3 inline-block h-auto max-w-95/100'>
+            <div id="Job" className='my-3 block h-auto max-w-95/100'>
                 {children.logo &&
                     <img id="Job-logo" className="float-left inline-block object-cover pr-2" src={children.logo} alt={children.title} width="100px" height="100px"/>
                 }
