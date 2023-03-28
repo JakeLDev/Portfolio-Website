@@ -11,13 +11,11 @@ import { Fade } from "react-awesome-reveal";
 const Events = () => {
     return (
         <>
-            <div className="page" id='Events'>
-                <h1 className="title">Events</h1>
-                <div className="paragraph">
-                    <p className="content" style={{ textAlign: "center" }}>Here's some events that I've ran or helped organise and run.</p>
-                </div>
+            <div className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/70" id='Events Page'>
+                <h1 id="Events Title" className="w-full font-semibold m-0 text-center content-center text-3xl">Events</h1>
+                <p className="text-center pt-2">Here's some events that I've ran or helped organise and run.</p>
                 <hr className="Sub-separator"></hr>
-                <div className='Event-container'>
+                <div id='Event-container'>
                 <Fade duration={2000} triggerOnce="true">
                         <Event title="QFin x IMC - Trading Team Project Review"
                             image={IMCTradingReview}

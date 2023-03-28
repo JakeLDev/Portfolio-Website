@@ -7,14 +7,17 @@ import "./FooterImgs.css"
 const MyFooter = () => {
     return (
         <>
-            <footer className="footer">
-                <div className="footer-content">
-                    <h2 id="footer-header">Contact Me</h2>
-                    <p>
+            <footer id="footer" className='mt-auto bottom-0 p-2'>
+                <div id="footer-content" className='relative m-auto max-w-7xl w-[70%]'>
+                    <h2 id="footer-header" className='font-semibold text-2xl py-2 max-sm:text-center'>Contact Me</h2>
+                    <p className='max-sm:text-center'>
                         {/* <button onClick={mailme}>Email Me</button>  <br/> */}
-                        <a href="mailto:me@jakelyell.dev" target="_blank" rel="noreferrer">me@jakelyell.dev</a>
+                        <a href="mailto:me@jakelyell.dev" target="_blank" rel="noreferrer" className='underline'>me@jakelyell.dev</a>
                     </p>
-                    <div className="footer-icons">
+                    <p className='max-sm:text-center'>
+                        <a href={resume} className='underline max-sm:text-center' download="Jake Lyell Computer Science Resume.pdf">Download my resume here!</a>
+                    </p>
+                    <div id="footer-icons" className='sm:absolute sm:bottom-0 sm:right-0 sm:w-52 grid grid-flow-col auto-rows-fr auto-cols-fr py-2'>
                         {mediaLinks.map((media) => 
                             <a 
                                 href={media.href}
@@ -29,10 +32,9 @@ const MyFooter = () => {
                             </a>
                         )}
                     </div>
-                    <a href={resume} download="Jake Lyell Computer Science Resume.pdf">Download my resume here!</a>
                 </div>
                 <div>
-                <p className="content" style={{textAlign: "center", margin: "2px 0", }}>Website created with ♥ (and React.js)</p>
+                <p className="text-center mx-1">Website created with ♥ (and React.js)</p>
                 </div>
             </footer>
         </>
