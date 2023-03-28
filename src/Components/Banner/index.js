@@ -7,7 +7,7 @@ const Banner = (children) => {
         <>
             <div id="Banner" className="w-full" style={{"minHeight":"calc(91vh)"}}>
                 <div id="banner-content" style={{"position":"absolute","top":"50%","left":"50%","transform": "translate(-50%, -50%)"}}>
-                    <h1 id="banner-title" className='select-none text-center font-bold text-white m-0 inline-block text-8xl max-sm:text-5xl' style={{"font-family": "IBM Plex Mono"}}>
+                    <h1 id="banner-title" className='after:ml-2 after:pb-1 after:inline-block after:w-10 after:h-[7px] after:bg-white after:animate-[blink_1s_infinite] select-none text-center font-bold text-white m-0 inline-block text-8xl max-sm:text-5xl' style={{"font-family": "IBM Plex Mono"}}>
                         {children.title}
                     </h1>
                 </div>

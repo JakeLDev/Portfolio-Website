@@ -11,9 +11,9 @@ import { Fade } from "react-awesome-reveal";
 const Events = () => {
     return (
         <>
-            <div className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/70" id='Events Page'>
+            <div className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/30" id='Events Page'>
                 <h1 id="Events Title" className="w-full font-semibold m-0 text-center content-center text-3xl">Events</h1>
-                <p className="text-center pt-2">Here's some events that I've ran or helped organise and run.</p>
+                <p className="text-center pt-2">Here's some events that I've run or helped organise.</p>
                 <hr className="Sub-separator"></hr>
                 <div id='Event-container'>
                 <Fade duration={2000} triggerOnce="true">

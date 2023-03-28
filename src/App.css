@@ -599,9 +599,9 @@ a.button:hover {
     display: block;
     margin: 0 auto;
   }
-  .banner-title{
+  /* .banner-title{
     font-size: calc(50px + 2vmin);
-  }
+  } */
 }
 
 @media screen and (max-width: 1100px) {

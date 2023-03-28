@@ -3,7 +3,8 @@ import React from 'react';
 import WAPOL from '../../Components/assets/projects/WAPOL2.png';
 import MOMENTUM from '../../Components/assets/projects/MomentumTrading.png';
 import RESISTANCE from '../../Components/assets/projects/Resistance.png';
-import PICCOMING from "../../Components/assets/projects/image-coming.png";
+// import PICCOMING from "../../Components/assets/projects/image-coming.png";
+import CASUALPAYCALCULATOR from '../../Components/assets/projects/CasualPayCalculator.png';
 import HYGIENEBOT from '../../Components/assets/projects/HygieneBot.png';
 import Project from '../../Components/Project';
 import ProjectThumbnail from '../../Components/ProjectThumbnail';
@@ -14,10 +15,10 @@ import 'reactjs-popup/dist/index.css';
 const Projects = () => {
     return (
         <>
-            <div className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/70" id='Projects Page'>
+            <div className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/30" id='Projects Page'>
                 <h1 className="w-full font-semibold m-0 text-center content-center text-3xl">Projects</h1>
                 <h3 className="w-full font-semibold mt-4 text-xl" style={{ textAlign: "center" }}><a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer">GitHub</a></h3>
-                <p className="p-2 text-center">Here is a list of projects that I have either completed, or am currently working on. This includes University Projects, Personal Projects, Projects for Clubs, and Jobs undertaken at work. Click the projects for more info! (More Projects are featured below in the "Work Experience" section)</p>
+                <p className="p-2 text-center">Here is a short list of projects that I have either completed, or am currently working on. This includes university projects, personal projects, projects for clubs, and jobs undertaken at work. Click the projects for more info! (More Projects are featured below in the "Work Experience" section)</p>
                 <div id="Project-container" className="block">
                     <Fade duration={1500} triggerOnce="true">
                         <div className='flex' id="Project-box">
@@ -42,26 +43,26 @@ const Projects = () => {
                             </Popup>
                         </div>
                     </Fade>
-                    {/* <Fade duration={1500} triggerOnce="true">
+                    <Fade duration={1500} triggerOnce="true">
                         <div className='Project-box'>
                             <Popup
                                 contentStyle={{"background": "rgba(54, 52, 52, 0.97)", "width": "80%", "maxHeight": "90vh", "overflowY": "auto", "overflowX": "hidden"}}
                                 trigger={open => (<button className='modalpopup'><ProjectThumbnail title="Casual Paycheck Calculator"
-                                                    image={PICCOMING}/>
+                                                    image={CASUALPAYCALCULATOR}/>
                                                     </button>)}
                                 modal
                                 nested
                             >
                                 {close => (
                                     <Project title="Casual Paycheck Calculator"
-                                        image={PICCOMING}
+                                        image={CASUALPAYCALCULATOR}
                                         desc="TODO"
                                         tools="React, TypeScript, Google Calendar API"
                                         repo="TODO" />
                                 )}
                             </Popup>
                         </div>
-                    </Fade> */}
+                    </Fade>
                 {/* <hr className="Sub-separator"></hr> */}
                     <Fade duration={1500} triggerOnce="true">
                         <div className='flex' id="Project-box">
