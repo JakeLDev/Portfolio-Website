@@ -54,8 +54,6 @@ const Events = () => {
                     </Fade>
                 </div>
             </div>
-            <hr className="Section-separator"></hr>
-
         </>)
 };
 

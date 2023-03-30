@@ -13,16 +13,16 @@ const Navbar = () => {
     <>
       <Nav>
           <NavMenu>
-              <Link to='/#About Me' className="button" id="notblog">
+              <Link to='/#About Me Page' className="button" id="notblog">
                 About Me
               </Link>
-              <Link to='/#Projects' className="button" id="notblog">
+              <Link to='/#Projects Page' className="button" id="notblog">
                 Projects
               </Link>
-              <Link to='/#Work Experience' className="button" id='notblog'>
+              <Link to='/#Work Experience Page' className="button" id='notblog'>
                 Work Experience
               </Link>
-              <Link to='/#Events' className="button" id="notblog">
+              <Link to='/#Events Page' className="button" id="notblog">
                 Events
               </Link>
               <Link to='/Blog' className="button" id="blog">

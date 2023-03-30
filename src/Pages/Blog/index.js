@@ -1,6 +1,5 @@
 import React from 'react';
 import BlogPost from '../../Components/BlogPost';
-import Widget from '../../Components/Widget';
 import BlogNavbar from '../../Components/BlogNavbar';
 
 import ATLASSIAN from '../../Components/assets/blog/Atlassian.png';

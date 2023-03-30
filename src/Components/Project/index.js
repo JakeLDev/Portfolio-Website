@@ -3,12 +3,12 @@ import React from 'react';
 const Project = (children) => {
     return (
         <>
-            <div id="Project" className="p-1 inline-block h-auto">
+            <div id="Project" className="p-1 inline-block h-auto max-lg:block max-lg:content-center">
                 {children.title &&
-                    <h2 id="Project-header" className="mt-0 pb-1 font-semibold text-xl">{children.title}</h2>
+                    <h2 id="Project-header" className="mt-0 pb-1 font-semibold text-xl max-lg:text-center">{children.title}</h2>
                 }
                 {children.image &&
-                    <img id="Project-image" className="float-left inline-block w-auto h-auto object-cover pr-2 max-w-lg" src={children.image} alt={children.title} />
+                    <img id="Project-image" className="lg:float-left lg:inline-block w-auto h-auto p-2 max-w-md max-lg:w-full max-lg:m-auto" src={children.image} alt={children.title} />
                 }
                 {children.desc &&
                     <p id="Project-desc" className="pl-8 pb-1"> <b>Description</b>: {children.desc}</p>
