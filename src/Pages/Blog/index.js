@@ -13,6 +13,10 @@ const Blog = () => {
                 <h1 id="Blog Title" className='w-full m-0 text-center content-center font-semibold text-4xl py-4'>What I've been up to recently</h1>
                 <div className="widget-container">
                     <div id="blog-column" className='w-full'>
+                    <BlogPost
+                            title="Started work at Atlassian"
+                            desc1="The graduate onboarding for Atlassian's 2023 Graduate Cohort started this week. We we're shown more about how the company works and meeting other graduates. Whilst the meetings we're interesting, it felt a little bit isolating still being in perth whilst almost all of the other graduates are located in Sydney, any meetups or gatherings orgainzed at the office were out of reach for me to attend."
+                            date="16th of January 2023" />
                         <BlogPost
                             title="Created a Casual Pay Calculator"
                             desc1="I developed a website to help estimate the paycheck received by a casual employee during a pay period. A user can input their hours worked, or allow the site to read their Google Calendar, and the site will estimate what your expected pay will be."
