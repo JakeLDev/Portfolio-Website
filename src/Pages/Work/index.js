@@ -32,6 +32,8 @@ const WorkExperience = () => {
                                 projecttech1="Java, React, JavaScript, TypeScript, Kotlin and more"/>
                     </Fade>
 
+                    <hr className="Sub-separator"></hr>
+
                     <Fade duration={1000} triggerOnce="true">
                         <Job title="QFin UWA | Executive Director of Trading" 
                             logo={QFin} 
@@ -50,7 +52,7 @@ const WorkExperience = () => {
                                 projecttech2="Python, Pandas, Numpy, Alpha Vantage Stock APIs, Custom Back-testing Framework"/>
                     </Fade>
 
-                    <hr className="Main-separator"></hr>
+                    <hr className="Sub-separator"></hr>
 
                     <Fade duration={1000} triggerOnce="true">
                         <Job logo={Vinnies}
@@ -62,7 +64,9 @@ const WorkExperience = () => {
                                 projectimage1={Vintranet}
                                 projecttech1="HTML, CSS, JavaScript, Custom CMS"/>
                     </Fade>
-                    <hr className="Main-separator"></hr>
+                    
+                    <hr className="Sub-separator"></hr>
+
                     
                     <Fade duration={1000} triggerOnce="true">
                         <Job logo={CFC}

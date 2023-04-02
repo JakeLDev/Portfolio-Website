@@ -1,17 +1,21 @@
-import Particles from "react-tsparticles";
 // import "./canvas.css"
+import { useCallback } from "react";
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
 
 const ParticlesCanvas = () => {
 
-  const particlesInit = (main) => {
-    // console.log(main);
+    const particlesInit = useCallback(async engine => {
+        console.log(engine);
+        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+        // starting from v2 you can add only the features you need reducing the bundle size
+        await loadFull(engine);
+    }, []);
 
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  };
-
-  const particlesLoaded = (container) => {
-    // console.log(container);
-  };
+    const particlesLoaded = useCallback(async container => {
+        await console.log(container);
+    }, []);
 
   return (
       <>
@@ -19,6 +23,7 @@ const ParticlesCanvas = () => {
             <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded}
                 options={{
                     pauseOnBlur: true,
+                    fpsLimit: 60,
                     fullScreen: {
                         enable: true,
                         zIndex: -1,
@@ -40,14 +45,6 @@ const ParticlesCanvas = () => {
                         width: 0,
                         color: "#000000"
                         },
-                        polygon: {
-                        nb_sides: 3
-                        },
-                        image: {
-                        src: "img/github.svg",
-                        width: 100,
-                        height: 100
-                        }
                     },
                     opacity: {
                         value: 0.5,
@@ -71,7 +68,7 @@ const ParticlesCanvas = () => {
                     },
                     line_linked: {
                         enable: true,
-                        distance: 150,
+                        distance: 210,
                         color: "#cdcdcd",
                         opacity: 0.5,
                         width: .8
@@ -106,9 +103,9 @@ const ParticlesCanvas = () => {
                     },
                     modes: {
                         grab: {
-                        distance: 150,
+                        distance: 350,
                         line_linked: {
-                            opacity: .5
+                            opacity: .4
                         }
                         },
                         bubble: {
@@ -119,8 +116,8 @@ const ParticlesCanvas = () => {
                         speed: 3
                         },
                         repulse: {
-                        distance: 203.01930307533627,
-                        duration: 0.4
+                        distance: 300,
+                        duration: 0.2
                         },
                         push: {
                         particles_nb: 3
@@ -130,7 +127,7 @@ const ParticlesCanvas = () => {
                         }
                     }
                     },
-                    retina_detect: false
+                    detectRetina: false
                 }
                 }/>
         </div>
