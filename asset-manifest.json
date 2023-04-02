@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0034cae7.css",
-    "main.js": "/static/js/main.e4cd2d93.js",
-    "static/js/787.49138e18.chunk.js": "/static/js/787.49138e18.chunk.js",
+    "main.css": "/static/css/main.4546d9d7.css",
+    "main.js": "/static/js/main.478d9caa.js",
+    "static/js/787.0cf18d2c.chunk.js": "/static/js/787.0cf18d2c.chunk.js",
     "static/media/Vintranet.png": "/static/media/Vintranet.55d3eb759b671d36cb4a.png",
     "static/media/TradingTeamProjectStart.jpg": "/static/media/TradingTeamProjectStart.10663acec0e874ef24a7.jpg",
     "static/media/IMCPythonWorkshop.jpg": "/static/media/IMCPythonWorkshop.7af148c3ba6fe9318982.jpg",
@@ -22,12 +22,12 @@
     "static/media/CasualPayCalculator.png": "/static/media/CasualPayCalculator.7649ed51f19c10d109a9.png",
     "static/media/QFin-Logo2.png": "/static/media/QFin-Logo2.dc3122f22fbefb6fb6aa.png",
     "index.html": "/index.html",
-    "main.0034cae7.css.map": "/static/css/main.0034cae7.css.map",
-    "main.e4cd2d93.js.map": "/static/js/main.e4cd2d93.js.map",
-    "787.49138e18.chunk.js.map": "/static/js/787.49138e18.chunk.js.map"
+    "main.4546d9d7.css.map": "/static/css/main.4546d9d7.css.map",
+    "main.478d9caa.js.map": "/static/js/main.478d9caa.js.map",
+    "787.0cf18d2c.chunk.js.map": "/static/js/787.0cf18d2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0034cae7.css",
-    "static/js/main.e4cd2d93.js"
+    "static/css/main.4546d9d7.css",
+    "static/js/main.478d9caa.js"
   ]
 }
