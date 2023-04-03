@@ -11,18 +11,6 @@ export const darkTheme = {
    navHoverFontColor: "black",
 }
 
-export const synthTheme = {
-    body: "#2E2157",
-    fontColor: "#93e3e6",
-    secondaryFontColor: "rgba(246, 1, 157, 1)",
-    pageColor: "rgba(45, 32, 84, .8)",
-    blogColor: "rgba(45, 32, 84, .4)",
-    navColor: "rgba(45, 226, 230, .8)",
-    navHoverColor: "rgba(246, 1, 157, 0.95)",
-    navHoverFontColor: "rgba(84, 19, 136, 1)",
-    footerColor: "rgba(38, 20, 71, 1)",
-}
-
 export const GlobalStyles = createGlobalStyle` 
     body {
         background: ${props => props.theme.body};

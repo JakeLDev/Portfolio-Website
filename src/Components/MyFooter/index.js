@@ -7,7 +7,7 @@ import "./FooterImgs.css"
 const MyFooter = () => {
     return (
         <>
-            <footer id="footer" className='mt-auto bottom-0 p-2'>
+            <footer id="footer" className='mt-auto bottom-0 p-2 bg-black/60'>
                 <div id="footer-content" className='relative m-auto max-w-7xl w-[70%]'>
                     <h2 id="footer-header" className='font-semibold text-2xl py-2 max-sm:text-center'>Contact Me</h2>
                     <p className='max-sm:text-center'>
