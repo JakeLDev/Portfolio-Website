@@ -1002,22 +1002,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 .banner{
   min-height: calc(90vh);
-  /* background-color: rgb(37, 36, 36,); */
   width: 100%;
 }
 
@@ -1086,31 +1072,8 @@ html {
   }
 }
 
-.list{
-  margin: 5px 0px;
-  padding: 0px 0px 0px 45px;
-  /* list-style-type: none; */
-}
-
-div.paragraph > p.content {
-  margin: 0px;
-  padding: 10px;
-  text-align: "center";
-  /* font-size: 1.2em; */
-}
-
-.skills{
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0;
-}
-
 .skill{
-  transition: all 0.3s ease-in-out;
+  transition: all 0.15s ease-in-out;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
@@ -1136,47 +1099,6 @@ div.paragraph > p.content {
   #notblog {
     display: none;
   }
-}
-
-.portrait-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  opacity: 100%;
-}
-
-.portrait{
-  /* align-self: center; */
-  /* justify-self: center; */
-  /* display: flex; */
-  object-fit: cover;
-  max-width: 280px;
-  /* max-height:230px; */
-  padding: 10px;
-  opacity: 100%;
-}
-
-.Project-container, .Jobs, .Events{
-  display: block;
-}
-
-.Project, .Job, .Event {
-  padding: 5px;
-  display: inline-block;
-  width: 95%;
-  height: auto;
-}
-
-.Job-Project-title, .Job-Project-desc, .Job-Project-tech, .Job-Project-repo{
-  padding-left: 30px;
-}
-
-.Job-Event-title, .Job-Event-desc, .Job-Event-tech{
-  padding-left: 30px;
 }
 
 hr.Main-separator{
@@ -1207,123 +1129,6 @@ hr.Section-separator{
   border-radius: 5px;
 }
 
-.Project-header  .Event-image{
-  margin-top: 0px;
-}
-
-.Project-image, .Event-image{
-  float: left;
-  display: inline-block;
-  /* margin-left: 0;
-  margin-right: auto; */
-  width: 100%;
-  height: auto;
-  max-width: 500px;
-  object-fit: cover;
-  /* padding: 10px; */
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
-.ProjectThumbnail{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10px;
-}
-
-.ProjectThumbnail-header{
-  text-align: center;
-}
-
-.ProjectThumbnail-image{
-  /* float: left; */
-  display: inline-block;
-  /* margin-left: 0;
-  margin-right: auto; */
-  margin: auto;
-  width: auto;
-  height: auto;
-  max-width: 500px;
-  object-fit: cover;
-  /* padding: 10px; */
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
-.Project-box{
-  display: flex;
-}
-
-.BlogPost {
-  padding: 15px;
-  display: inline-block;
-  width: -o-calc(100% - 50px);
-  width: calc(100% - 50px);
-  /* min-width: 95%; */
-  height: auto;
-  border-radius: 5px;
-  background-color: rgba(37, 36, 36, .8);
-  margin: 10px;
-}
-
-.blog-column {
-  width: 100%;
-}
-
-.BlogPost-image{
-  /* float: left; */
-  display: inline;
-  width: 100%;
-  height: auto;
-  margin: auto;
-  max-width: 500px;
-  object-fit: cover;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
-.BlogPost-desc {
-  margin-bottom: 0;
-  margin-top: 8px;
-  /* margin-left: 15px; */
-}
-
-.BlogPost-header {
-  margin-bottom: 0;
-  margin-top: 8px;
-}
-
-.Job-image{
-  /* float: left; */
-  clear: both;
-  display: block;
-  /* align-self: center; */
-  width: 70%;
-  /* height: auto; */
-  /* max-width: 100%; */
-  /* object-fit: cover; */
-  /* padding: 10px; */
-  margin: auto;
-  padding-top: 10px;
-  padding-right: 10px;
-}
-
-.Job-logo{
-  float: left;
-  display: inline-block;
-  object-fit: cover;
-  /* padding: 10px; */
-  padding-right: 10px;
-}
-
-.contact-icon {
-  color: white;
-  height: 35px;
-  width: auto;
-  margin: 0px 10px 0px 0px;
-}
-
 a{
   color: inherit;
 }
@@ -1344,12 +1149,6 @@ a.button{
           appearance: button;
 }
 
-/* @media screen and (max-width: 800px){
-  a.button{
-      display: none;
-  }
-} */
-
 a.button:hover {
   color: #000000;
   background: rgba(179, 179, 179, 0.95);
@@ -1357,45 +1156,8 @@ a.button:hover {
   font-weight: bold;
 }
 
-.modal {
-  font-size: 12px;
-}
-
-.modal > .header {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  font-size: 18px;
-  text-align: center;
-  padding: 5px;
-}
-
-.modal > .content {
-  width: 100%;
-  padding: 10px 5px;
-}
-
-.modal > .actions {
-  width: 100%;
-  padding: 10px 5px;
-  margin: auto;
-  text-align: center;
-}
-
-.modal > .close {
-  cursor: pointer;
-  position: absolute;
-  display: block;
-  padding: 2px 5px;
-  line-height: 20px;
-  right: -10px;
-  top: -10px;
-  font-size: 24px;
-  background: #ffffff;
-  border-radius: 18px;
-  border: 1px solid #cfcece;
-}
-
 .modalpopup{
+  transition: all 0.1s ease-in-out;
   background: none;
   padding: 5px;
   display: inline-block;
@@ -1412,12 +1174,8 @@ a.button:hover {
 }
 
 .modalpopup:hover{
-  background: rgba(54, 52, 52, 0.90);
-}
-
-.jakepopup-content{
-  background: #232425;
-  padding: 100px;
+  /* background: rgba(54, 52, 52, 0.80); */
+  transform: scale(1.15);
 }
 
 @media screen and (max-width: 800px){
@@ -1469,10 +1227,6 @@ a.button:hover {
     display: block;
     margin: 0 auto;
   }
-
-  /* .banner-title{
-    font-size: calc(50px + 2vmin);
-  } */
 }
 
 @media screen and (max-width: 1100px) {
@@ -1485,12 +1239,6 @@ a.button:hover {
     padding-left: 30px;
   }
 }
-
-/* @media screen and (max-width: 950px) {
-  div.page, div.blog-page{
-    max-width: 85%;
-  }
-} */
 
 @media screen and (min-width: 855px){
   .banner-title:after {

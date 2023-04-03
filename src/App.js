@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import MyFooter from './Components/MyFooter';
 import ScrollButton from './Components/ScrollButton';
@@ -10,16 +10,13 @@ import Blog from './Pages/Blog';
 import Master from './Pages/Master';
 
 import { ThemeProvider } from "styled-components"
-import {darkTheme, synthTheme, GlobalStyles} from "./themes.js"
+import {darkTheme, GlobalStyles} from "./themes.js"
 
 function App() {
 
-  const [theme, setTheme] = useState('dark');
-
-
   return (
     <>
-        <ThemeProvider theme={theme === "dark" ? darkTheme : synthTheme}>
+        <ThemeProvider theme={darkTheme}>
           <GlobalStyles />
             <ParticlesCanvas />
 
