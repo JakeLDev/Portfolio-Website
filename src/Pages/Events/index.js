@@ -16,7 +16,7 @@ const Events = () => {
                 <p className="text-center pt-2">Here's some events that I've run or helped organise.</p>
                 <hr className="Sub-separator"></hr>
                 <div id='Event-container'>
-                <Fade duration={2000} triggerOnce="true">
+                <Fade duration={1000} triggerOnce="true">
                         <Event title="QFin x IMC - Trading Team Project Review"
                             image={IMCTradingReview}
                             date="10th of May 2022"
@@ -27,7 +27,7 @@ const Events = () => {
                             linkedin=""
                             facebook="https://www.facebook.com/QFinUWA/posts/427254369402191" /> 
                     </Fade>
-                    <Fade duration={2000} triggerOnce="true">
+                    <Fade duration={1000} triggerOnce="true">
                         <Event title="QFin x IMC - Introduction to Python Workshop"
                             image={IMCPythonWorkshop}
                             date="14th of April 2022"
@@ -39,7 +39,7 @@ const Events = () => {
                             linkedin="https://www.linkedin.com/posts/qfin-uwa_last-night-qfin-had-the-pleasure-of-hosting-activity-6920737179627360256-6R6t?utm_source=linkedin_share&utm_medium=member_desktop_web"
                             facebook="https://www.facebook.com/QFinUWA/posts/407181511409477" />
                     </Fade>
-                    <Fade duration={2000} triggerOnce="true">
+                    <Fade duration={1000} triggerOnce="true">
                         <Event title="QFin - Trading Team 2022 Semester 1 Project Initiation"
                             image={TradingTeamProjectStart}
                             date="16th of March 2022"

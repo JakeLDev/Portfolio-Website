@@ -24,7 +24,7 @@ const AboutMe = () => {
         <p className="m-0 p-2">  I love the idea of working from anywhere, and Atlassian supports that!
           I'm looking to move to Sydney sometime in the next 12 months, and am also looking at working abroad for a few weeks/months, perhaps somewhere in Japan.</p>
         <h2 className="w-full font-semibold m-0 text-xl px-2">Skills</h2>
-        <Fade duration={2000} triggerOnce="true">
+        <Fade duration={1000} triggerOnce="true">
           <ul className="list-none flex flex-wrap justify-center p-0 max-w-3xl mx-auto">
             <li className="skill">
               <span class="iconify" data-icon="logos:python" data-width="90" data-height="90"></span>
