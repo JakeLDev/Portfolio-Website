@@ -11,13 +11,14 @@ import ProjectThumbnail from '../../Components/ProjectThumbnail';
 import { Fade } from "react-awesome-reveal";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import GitHubLogo from "../../Components/assets/GitHub-Logo-Invert.png";
 
 const Projects = () => {
     return (
         <>
             <div className="justify-center h-auto w-9/12 m-auto mb-4 mt-4 rounded max-w-7xl bg-neutral-900/30" id='Projects Page'>
                 <h1 className="w-full font-semibold m-0 text-center content-center text-3xl">Personal Projects</h1>
-                <h3 className="w-full font-semibold mt-4 text-xl text-center text-blue-500 underline"><a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer">GitHub</a></h3>
+                <h3 className="w-full font-semibold mt-4 text-xl text-center text-blue-500 underline"><a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer"><img className="w-16 mx-auto" src={GitHubLogo}></img></a></h3>
                 <p className="p-2 text-center">Here is a short list of projects that I have either completed, or am currently working on. This includes university projects, personal projects, projects for clubs, and jobs undertaken at work. Click the projects for more info! (More Projects are featured below in the "Work Experience" section)</p>
                 <div id="Project-container" className="block">
                     <Fade duration={1000} triggerOnce="true">

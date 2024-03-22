@@ -15,7 +15,7 @@ const Event = (children) => {
                 <p id="Event-date"><b>Date</b>: {children.date}</p>
                 <p id="Event-desc"> <b>Description</b>: {children.desc}</p>
                 {children.host.length > 0 &&
-                    <p id="Event-host"> <b>Host</b>: {children.host}</p>
+                    <p id="Event-host"> <b>Host/s</b>: {children.host}</p>
                 }
                 {children.attendees.length > 0 &&
                     <p id="Event-attendees" className='pb-2'><b>Attendees</b>: {children.attendees}</p>

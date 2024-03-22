@@ -4,6 +4,7 @@ import Event from '../../Components/Event';
 import TradingTeamProjectStart from "../../Components/assets//events//TradingTeamProjectStart.jpg"
 import IMCPythonWorkshop from "../../Components/assets//events//IMCPythonWorkshop.jpg"
 import IMCTradingReview from "../../Components/assets/events/IMCTradingReview.jpg"
+import PCSxAtlassianTalk from "../../Components/assets/events/PCSxAtlassianTalk.jpg"
 
 
 import { Fade } from "react-awesome-reveal";
@@ -17,6 +18,17 @@ const Events = () => {
                 <hr className="Sub-separator"></hr>
                 <div id='Event-container'>
                 <Fade duration={1000} triggerOnce="true">
+                <Event title="UWA Programming Competition Society x Atlassian - Intern and Graduate Information Session"
+                            image={PCSxAtlassianTalk}
+                            date="15th of August 2023"
+                            desc="Atlassian asked Frinze and I to run an information session for the UWA Programming Competition Society. We talked about our experiences as graduates at Atlassian, and spoke about our graduate and intern hiring process and programmes. We then networked and answered questions from the attendees. It was a great opportunity to give back to the UWA community and help students who are interested in a career in tech."
+                            host="Jake Lyell and Frinze Lapuz"
+                            sponsor="Atlassian"
+                            attendees="~30 Programming Competition Society Members"
+                            linkedin=""
+                            facebook="" /> 
+                    </Fade>
+                    <Fade duration={1000} triggerOnce="true">
                         <Event title="QFin x IMC - Trading Team Project Review"
                             image={IMCTradingReview}
                             date="10th of May 2022"

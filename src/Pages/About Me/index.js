@@ -11,7 +11,7 @@ const AboutMe = () => {
           <img id="portrait" className="object-cover p-2 max-w-xs" src={Jake} alt="Portrait of Jake"></img>
         </div>
         <h1 id="About Me Title" className="w-full font-semibold m-0 text-center content-center text-3xl">About me</h1>
-          <p className="m-0 p-2 text-center mx-auto max-w-xl">My name is Jake Lyell, I'm a 21 year old Software Engineer, currently working at Atlassian as a Full Stack Engineer on the Confluence Data Center platform</p>
+          <p className="m-0 p-2 text-center mx-auto max-w-xl">My name is Jake Lyell, I'm a 22 year old Software Engineer, currently working at Atlassian as a Full Stack Software Engineer on Confluence Data Center</p>
         <h2 className="w-full font-semibold m-0 text-xl px-2">Education</h2>
         <p className="m-0 p-2"> I graduated from the University of Western Australia with a Bachelor of Science with a Double Major in Computer Science and Data Science in June 2022.
           After graduation, I spent some time self-teaching and travelling around Korea and Japan with my friends before starting work at Atlassian in Jan 2023.<br></br>
@@ -20,10 +20,9 @@ const AboutMe = () => {
         <p className="m-0 p-2"> I enjoy playing video games, building computers and completing coding projects for my own amusement.
           I have also recently started building and programming keyboards, starting with the relatively simple GMMK Pro and moving onto soldering a Dumbpad (12 key macropad with rotary encoder).
           I have also built and programmed a Sofle v2 split ortholinear keyboard.</p>
-        <h2 className="w-full font-semibold m-0 text-xl px-2"></h2>
-        <p className="m-0 p-2">  I love the idea of working from anywhere, and Atlassian supports that!
-          I'm looking to move to Sydney sometime in the next 12 months, and am also looking at working abroad for a few weeks/months, perhaps somewhere in Japan.</p>
+        <p className="m-0 p-2">I'm based in Sydney as of March 2024</p>
         <h2 className="w-full font-semibold m-0 text-xl px-2">Skills</h2>
+        <p className="m-0 p-2">At Atlassian I primarily use Java for backend work, and TypeScript/JavaScript for frontend work, so I'd say I'm most proficient in these in a professional context. However Python is still my favourite language for quick scripts, webscrapers etc, due to my experience with it at University.</p>
         <Fade duration={1000} triggerOnce="true">
           <ul className="list-none flex flex-wrap justify-center p-0 max-w-3xl mx-auto">
             <li className="skill">

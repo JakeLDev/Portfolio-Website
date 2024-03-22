@@ -25,7 +25,7 @@ const WorkExperience = () => {
                         <Job title="Atlassian | Junior Software Engineer" 
                             logo={Atlassian} 
                             daterange="January 2023 - Present" 
-                            desc="Joined Atlassian in January 2023 as a Graduate Software Engineer. Atlassian is a software company that develops products primarily for software teams. My role involves working on both frontend and backend development for the Atlassian's Confluence product. Currently working remotely from Perth, but looking to move to Sydney sometime soon."
+                            desc="Joined Atlassian in January 2023 as a Graduate Software Engineer. Atlassian is a software company that develops products primarily for software teams. My role involves working on both frontend and backend development for the Atlassian's Confluence product."
                                 projecttitle1="Confluence Data Center"
                                 projectdesc1="Developing new features for Confluence Data Center, a product that allows users to collaborate on documents and share information. The product is used by both large and small companies worldwide. My team is responsible for developing new features for the product, as well as maintaining and fixing bugs in the existing codebase when they occur."
                                 projectimage1={Confluence}
