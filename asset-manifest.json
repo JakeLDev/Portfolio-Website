@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8f7a524.css",
-    "main.js": "/static/js/main.282ab5bb.js",
+    "main.css": "/static/css/main.6aef3ec7.css",
+    "main.js": "/static/js/main.ab06404c.js",
     "static/js/787.0cf18d2c.chunk.js": "/static/js/787.0cf18d2c.chunk.js",
     "static/media/Vintranet.png": "/static/media/Vintranet.55d3eb759b671d36cb4a.png",
     "static/media/TradingTeamProjectStart.jpg": "/static/media/TradingTeamProjectStart.10663acec0e874ef24a7.jpg",
     "static/media/IMCPythonWorkshop.jpg": "/static/media/IMCPythonWorkshop.7af148c3ba6fe9318982.jpg",
     "static/media/IMCTradingReview.jpg": "/static/media/IMCTradingReview.88d4da80092c0fe65018.jpg",
+    "static/media/PCSxAtlassianTalk.jpg": "/static/media/PCSxAtlassianTalk.7ac368723eb1b8c640d7.jpg",
     "static/media/JakeLyellTiny.jpg": "/static/media/JakeLyellTiny.5a901cedb0f544c1e028.jpg",
     "static/media/MeanReversionProject.png": "/static/media/MeanReversionProject.17256d7970127d2cb63c.png",
     "static/media/HygieneBot.png": "/static/media/HygieneBot.8695635a7b6b0033e2ef.png",
@@ -22,12 +23,12 @@
     "static/media/CasualPayCalculator.png": "/static/media/CasualPayCalculator.7649ed51f19c10d109a9.png",
     "static/media/QFin-Logo2.png": "/static/media/QFin-Logo2.dc3122f22fbefb6fb6aa.png",
     "index.html": "/index.html",
-    "main.e8f7a524.css.map": "/static/css/main.e8f7a524.css.map",
-    "main.282ab5bb.js.map": "/static/js/main.282ab5bb.js.map",
+    "main.6aef3ec7.css.map": "/static/css/main.6aef3ec7.css.map",
+    "main.ab06404c.js.map": "/static/js/main.ab06404c.js.map",
     "787.0cf18d2c.chunk.js.map": "/static/js/787.0cf18d2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8f7a524.css",
-    "static/js/main.282ab5bb.js"
+    "static/css/main.6aef3ec7.css",
+    "static/js/main.ab06404c.js"
   ]
 }
