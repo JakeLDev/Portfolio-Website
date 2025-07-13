@@ -22,7 +22,7 @@ const WorkExperience = () => {
                 <div id="Jobs" className="block p-2">
 
                 <Fade duration={1000} triggerOnce="true">
-                        <Job title="Atlassian | Junior Software Engineer" 
+                        <Job title="Atlassian | Software Engineer" 
                             logo={Atlassian} 
                             daterange="January 2023 - Present" 
                             desc="Joined Atlassian in January 2023 as a Graduate Software Engineer. Atlassian is a software company that develops products primarily for software teams. My role involves working on both frontend and backend development for the Atlassian's Confluence product."
